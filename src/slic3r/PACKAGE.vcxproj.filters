@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\CMakeFiles\061bbe3183b72f03485d534ad08144c3\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D979B1CB-A369-3FC4-B9FD-2D71A4829A0C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

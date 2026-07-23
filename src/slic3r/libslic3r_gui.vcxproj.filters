@@ -1,0 +1,2450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\slic3r\CMakeFiles\libslic3r_gui.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\slic3r\CMakeFiles\libslic3r_gui.dir\cmake_pch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\pchheader.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Printer\PrinterFileSystem.cpp">
+      <Filter>GUI\Printer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Printer\LiveViewTrackContext.cpp">
+      <Filter>GUI\Printer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\AnimaController.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\AxisCtrlButton.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\Button.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\CheckBox.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\RadioBox.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\ProgressDialog.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\RoundedRectangle.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\ComboBox.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\SideButton.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\SideMenuPopup.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\DropDown.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\PopupWindow.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\Label.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\LinkLabel.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\Scrollbar.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\ScrolledWindow.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\StaticBox.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\StaticGroup.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\ImageSwitchButton.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\SwitchButton.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\SpinInput.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\StaticLine.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\StateColor.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\StateHandler.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\TabCtrl.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\TextInput.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\TempInput.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\AMSControl.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\AMSItem.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\FilamentLoad.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\FanControl.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\StepCtrl.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\ProgressBar.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\SideTools.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\WebView.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\ErrorMsgStaticText.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\MultiNozzleSync.cpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MixedFilamentDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ColorDecomposeDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ColorDecomposeSupport.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GradientCurveEditor.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AboutDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\NetworkTestDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AuxiliaryDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Auxiliary.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DailyTips.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\EncodedFilament.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Project.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BackgroundSlicingProcess.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BitmapCache.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ImageGrid.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\3DScene.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GLShadersManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GLShader.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GLCanvas3D.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MP4\PBOReader.cpp">
+      <Filter>GUI\MP4</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MP4\Mp4Recorder.cpp">
+      <Filter>GUI\MP4</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MP4\minimp4_impl.c">
+      <Filter>GUI\MP4</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MP4\minih264_impl.c">
+      <Filter>GUI\MP4</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\OpenGLManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Selection.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SlicingProgressNotification.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmosManager.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmosCommon.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoBase.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoMove.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoRotate.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoScale.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoSlaSupports.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoFdmSupports.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoFlatten.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoAdvancedCut.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoHollow.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoPainterBase.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoSimplify.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoMmuSegmentation.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoFuzzySkin.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoFaceDetector.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoMeasure.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoBrimEars.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoAssembly.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoSeam.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoText.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoSVG.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoMeshBoolean.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\UIHelpers\MeshBooleanUI.cpp">
+      <Filter>GUI\UIHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\UIHelpers\TextEllipsis.cpp">
+      <Filter>GUI\UIHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GLSelectionRectangle.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GizmoObjectManipulation.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoAlignment.cpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GLModel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GLTexture.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GLToolbar.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GuiColor.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\IMToolbar.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GCodeViewer.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ImageDPIFrame.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Preferences.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AMSSetting.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AMSDryControl.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AMSMaterialsSetting.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ExtrusionCalibration.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PresetHints.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_Init.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_Preview.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_App.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_Utils.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\I18N.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\LanguageMode.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\IconManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MainFrame.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ProjectHistoryDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BBLTopbar.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BedShapeDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Plater.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PartPlate.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\UserNotification.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PresetComboBoxes.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BitmapComboBox.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SavePresetDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_Colors.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_Factories.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_ObjectList.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_ObjectLayers.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_AuxiliaryList.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_ObjectSettings.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_ObjectTable.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_ObjectTableSettings.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MeshUtils.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\TickCode.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Tab.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ParamsDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ParamsPanel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PrintHostDialogs.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AmsWidgets.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MediaFilePanel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MediaPlayCtrl.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MonitorBasePanel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\UpgradePanel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\HintNotification.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\HMSPanel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MonitorPage.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\StatusPanel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ThermalPreconditioningDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\HMS.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SliceInfoPanel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CameraPopup.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Monitor.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\WebViewDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PrinterWebView.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\WebDownPluginDlg.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\WebGuideDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\UxProgramTermsDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\WebUserLoginDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ConfigManipulation.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Field.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DragDropPanel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CapsuleButton.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\FilamentMapPanel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\FilamentMapDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\OptionsGroup.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\OG_CustomCtrl.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MarkdownTip.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\2DBed.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\3DBed.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Camera.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Overview\AssemblyPdfExportDialog.cpp">
+      <Filter>GUI\Overview</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Overview\AssemblyExportProgressWindow.cpp">
+      <Filter>GUI\Overview</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Overview\TinyExportMardDown.cpp">
+      <Filter>GUI\Overview</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Overview\AssemblyStepsUtils.cpp">
+      <Filter>GUI\Overview</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Overview\AssemblyStepsUtilsImgui.cpp">
+      <Filter>GUI\Overview</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CameraUtils.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\wxExtensions.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ObjColorDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\TextureImportDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ModelPreviewDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\FilamentPickerDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\FilamentBitmapUtils.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\WipeTowerDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\RemovableDriveManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SendSystemInfoDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\StepMeshDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BaseTransparentDPIFrame.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SyncAmsInfoDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SurfaceDrag.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\TextLines.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PlateSettingsDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PlateMoveDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ImGuiWrapper.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ImageMessageDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceErrorDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\UserManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\HttpServer.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Config\Snapshot.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Config\Version.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\ASCIIFolding.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ConfigWizard.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ConnectPrinter.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MsgDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DownloadProgressDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\UpdateDialogs.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\Job.cpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\BoostThreadWorker.cpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\EmbossJob.cpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\PlaterJob.cpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\UpgradeNetworkJob.cpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\ArrangeJob.cpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\CreateFontNameImageJob.cpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\CreateFontStyleImagesJob.cpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\OrientJob.cpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\RotoptimizeJob.cpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\FillBedJob.cpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\SLAImportJob.cpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\PrintJob.cpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\SendJob.cpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\BindJob.cpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\NotificationProgressIndicator.cpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\BooleanOperationJob.cpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PhysicalPrinterDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ProgressStatusBar.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BBLStatusBar.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BBLStatusBarSend.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BBLStatusBarPrint.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BBLStatusBarBind.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Mouse3DController.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\IMSlider.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Notebook.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\TabButton.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Tabbook.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ObjectDataViewModel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AuxiliaryDataViewModel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\InstanceCheck.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Search.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\FilamentGroupPopup.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\NotificationManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\UnsavedChangesDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\UserPresetsDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ExtraRenderers.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ProjectDirtyStateManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DesktopIntegrationDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DragCanvas.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PublishDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\RecenterDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PrivacyUpdateDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BonjourDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BindDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PartSkipDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SkipPartCanvas.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ModelMall.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SelectMachine.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PrePrintChecker.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SelectMachinePop.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SendToPrinter.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AmsMappingPopup.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AmsMappingPopupUpdate.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ReleaseNote.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\HelioReleaseNote.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\HelioHistoryDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BetaVersionDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SingleChoiceDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CaliHistoryDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CalibrationPanel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CalibrationWizard.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CalibrationWizardPage.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CalibrationWizardStartPage.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CalibrationWizardPresetPage.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CalibrationWizardCaliPage.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CalibrationWizardSavePage.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\calib_dlg.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Calibration.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PrintOptionsDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PurgeModeDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SafetyOptionsDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CreatePresetsDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\json_diff.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\KBShortcutsDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MultiMachine.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MultiMachinePage.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MultiMachineManagerPage.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MultiPrintJob.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MultiSendMachineModel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MultiTaskManagerPage.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MultiTaskModel.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SendMultiMachinePage.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\TaskManager.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GCodeRenderer\AdvancedRenderer.cpp">
+      <Filter>GUI\GCodeRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GCodeRenderer\BaseRenderer.cpp">
+      <Filter>GUI\GCodeRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GCodeRenderer\LegacyRenderer.cpp">
+      <Filter>GUI\GCodeRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\WxFontUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\EmbossStyleManager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\FixModelByWin10.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\Bonjour.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\FileHelp.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\PresetUpdater.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\Process.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\RaycastManager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\UndoRedo.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\HexFile.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\TCPConsole.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\minilzo_extension.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\ColorSpaceConvert.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\OctoPrint.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\PrintHost.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\NetworkAgent.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\MKS.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\CpuMemory.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\Duet.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\FlashAir.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\AstroBox.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\Repetier.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\CalibUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\FontConfigHelp.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\FontUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\HelioDragon.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\FileTransferUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\FileTransferObject.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\CertificateVerify.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevAxis.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevAxisCtrl.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevBed.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevCalib.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevChamber.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevChamberCtrl.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevConfig.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevConfigUtil.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevCtrl.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevExtensionTool.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevExtruderSystem.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevExtruderSystemCtrl.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevFan.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevFilaAmsSetting.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevFilaAmsSettingCtrl.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevFilaBlackList.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevFilaSystem.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevFilaSystemCtrl.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevFilaSwitch.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevFirmware.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevPrintOptions.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevPrintTaskInfo.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevHMS.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevInfo.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevLamp.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevLampCtrl.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevManager.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevMapping.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevMappingNozzle.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevNozzleRack.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevNozzleRackCtrl.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevNozzleSystem.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevStatus.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevStorage.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevUpgrade.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevUpgradeCtrl.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevUtil.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevUtilBackend.cpp">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceTab\uiAmsHumidityPopup.cpp">
+      <Filter>GUI\DeviceTab</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceTab\uiAMSBestPositionPopup.cpp">
+      <Filter>GUI\DeviceTab</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceTab\uiDeviceUpdateVersion.cpp">
+      <Filter>GUI\DeviceTab</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceTab\wgtDeviceNozzleRack.cpp">
+      <Filter>GUI\DeviceTab</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceTab\wgtDeviceNozzleRackUpdate.cpp">
+      <Filter>GUI\DeviceTab</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceTab\wgtDeviceNozzleSelect.cpp">
+      <Filter>GUI\DeviceTab</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceTab\wgtMsgBox.cpp">
+      <Filter>GUI\DeviceTab</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceTab\wgtMsgPanel.cpp">
+      <Filter>GUI\DeviceTab</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\fila_manager\wgtFilaManagerFeature.cpp">
+      <Filter>GUI\fila_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\fila_manager\wgtFilaManagerStore.cpp">
+      <Filter>GUI\fila_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\fila_manager\wgtFilaManagerPanel.cpp">
+      <Filter>GUI\fila_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\fila_manager\wgtFilaManagerSync.cpp">
+      <Filter>GUI\fila_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\fila_manager\wgtFilaManagerCloudClient.cpp">
+      <Filter>GUI\fila_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\fila_manager\wgtFilaManagerCloudSync.cpp">
+      <Filter>GUI\fila_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\fila_manager\wgtFilaManagerCloudDispatcher.cpp">
+      <Filter>GUI\fila_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\fila_manager\AmsAutoPushThrottle.cpp">
+      <Filter>GUI\fila_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceWeb\DeviceHttpServer.cpp">
+      <Filter>GUI\DeviceWeb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceWeb\DeviceWebPage.cpp">
+      <Filter>GUI\DeviceWeb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceWeb\DeviceWebHost.cpp">
+      <Filter>GUI\DeviceWeb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceWeb\DeviceWebBridge.cpp">
+      <Filter>GUI\DeviceWeb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceWeb\DeviceWebManager.cpp">
+      <Filter>GUI\DeviceWeb</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceWeb\ViewModels\FilamentManager\FilamentManagerVM.cpp">
+      <Filter>GUI\DeviceWeb\ViewModels\FilamentManager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\dark_mode.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AVVideoDecoder.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\wxMediaCtrl2.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\wxMediaCtrl3.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\WindowsNativeVisualSmoke.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\pchheader.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Printer\PrinterFileSystem.h">
+      <Filter>GUI\Printer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Printer\LiveViewTrackContext.h">
+      <Filter>GUI\Printer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\AnimaController.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\AxisCtrlButton.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\Button.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\CheckBox.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\RadioBox.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\ProgressDialog.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\RoundedRectangle.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\ComboBox.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\SideButton.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\SideMenuPopup.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\DropDown.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\PopupWindow.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\Label.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\LinkLabel.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\Scrollbar.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\ScrolledWindow.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\StaticBox.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\StaticGroup.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\ImageSwitchButton.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\SwitchButton.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\SpinInput.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\StaticLine.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\StateColor.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\StateHandler.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\TabCtrl.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\TextInput.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\TempInput.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\AMSControl.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\AMSItem.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\FilamentLoad.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\FanControl.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\StepCtrl.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\ProgressBar.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\SideTools.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\WebView.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\ErrorMsgStaticText.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Widgets\MultiNozzleSync.hpp">
+      <Filter>GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MixedFilamentDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ColorDecomposeDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ColorDecomposeSupport.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GradientCurveEditor.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AboutDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\NetworkTestDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AuxiliaryDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Auxiliary.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DailyTips.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\EncodedFilament.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Project.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BackgroundSlicingProcess.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BitmapCache.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ImageGrid.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\3DScene.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\format.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GLShadersManager.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GLShader.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GLCanvas3D.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GLEnums.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MP4\PBOReader.hpp">
+      <Filter>GUI\MP4</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MP4\Mp4Recorder.hpp">
+      <Filter>GUI\MP4</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\OpenGLManager.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Selection.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SlicingProgressNotification.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmosManager.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmosCommon.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoBase.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoMove.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoRotate.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoScale.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoSlaSupports.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoFdmSupports.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoFlatten.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoAdvancedCut.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoHollow.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoPainterBase.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoSimplify.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoMmuSegmentation.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoFuzzySkin.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoFaceDetector.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoMeasure.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoBrimEars.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoAssembly.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoSeam.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoText.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoSVG.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoMeshBoolean.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\UIHelpers\MeshBooleanUI.hpp">
+      <Filter>GUI\UIHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\UIHelpers\TextEllipsis.hpp">
+      <Filter>GUI\UIHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GLSelectionRectangle.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GizmoObjectManipulation.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Gizmos\GLGizmoAlignment.hpp">
+      <Filter>GUI\Gizmos</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GLModel.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GLTexture.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GLToolbar.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GuiColor.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\IMToolbar.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GCodeViewer.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ImageDPIFrame.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Preferences.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AMSSetting.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AMSDryControl.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AMSMaterialsSetting.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ExtrusionCalibration.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PresetHints.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_Init.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_Preview.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_App.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_Utils.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\I18N.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\LanguageMode.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\IconManager.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MainFrame.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ProjectHistoryDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BBLTopbar.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BedShapeDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Plater.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PartPlate.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\UserNotification.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PresetComboBoxes.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BitmapComboBox.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SavePresetDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_Colors.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_Factories.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_ObjectList.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_ObjectLayers.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_AuxiliaryList.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_ObjectSettings.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_ObjectTable.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GUI_ObjectTableSettings.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MeshUtils.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\TickCode.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Tab.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ParamsDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ParamsPanel.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PrintHostDialogs.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AmsWidgets.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MediaFilePanel.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MediaPlayCtrl.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MonitorBasePanel.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\UpgradePanel.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\HintNotification.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\HMSPanel.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MonitorPage.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\StatusPanel.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ThermalPreconditioningDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\HMS.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SliceInfoPanel.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CameraPopup.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Monitor.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\WebViewDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PrinterWebView.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\WebDownPluginDlg.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\WebGuideDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\UxProgramTermsDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\WebUserLoginDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ConfigManipulation.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Field.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DragDropPanel.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CapsuleButton.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\FilamentMapPanel.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\FilamentMapDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\OptionsGroup.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\OG_CustomCtrl.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MarkdownTip.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\2DBed.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\3DBed.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Camera.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Overview\AssemblyPdfExportDialog.hpp">
+      <Filter>GUI\Overview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Overview\AssemblyExportProgressWindow.hpp">
+      <Filter>GUI\Overview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Overview\TinyExportMardDown.hpp">
+      <Filter>GUI\Overview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Overview\AssemblyStepsUtils.hpp">
+      <Filter>GUI\Overview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Overview\AssemblyStepsUtilsInternal.hpp">
+      <Filter>GUI\Overview</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CameraUtils.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\wxExtensions.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ObjColorDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\TextureImportDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ModelPreviewDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\FilamentPickerDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\FilamentBitmapUtils.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\WipeTowerDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\RemovableDriveManager.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SendSystemInfoDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\StepMeshDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BaseTransparentDPIFrame.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SyncAmsInfoDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SurfaceDrag.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\TextLines.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PlateSettingsDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PlateMoveDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ImGuiWrapper.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ImageMessageDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceManager.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceErrorDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\UserManager.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\HttpServer.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Config\Snapshot.hpp">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Config\Version.hpp">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\ASCIIFolding.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ConfigWizard.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ConnectPrinter.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ConfigWizard_private.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MsgDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DownloadProgressDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\UpdateDialogs.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\Job.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\JobNew.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\Worker.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\BoostThreadWorker.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\BusyCursorJob.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\ThreadSafeQueue.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\PlaterWorker.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\EmbossJob.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\PlaterJob.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\UpgradeNetworkJob.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\ArrangeJob.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\CreateFontNameImageJob.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\CreateFontStyleImagesJob.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\OrientJob.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\RotoptimizeJob.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\FillBedJob.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\SLAImportJob.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\ProgressIndicator.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\PrintJob.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\SendJob.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\BindJob.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\NotificationProgressIndicator.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Jobs\BooleanOperationJob.hpp">
+      <Filter>GUI\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PhysicalPrinterDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ProgressStatusBar.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BBLStatusBar.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BBLStatusBarSend.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BBLStatusBarPrint.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BBLStatusBarBind.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Mouse3DController.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\IMSlider.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\IMSlider_Utils.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Notebook.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\TabButton.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Tabbook.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ObjectDataViewModel.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AuxiliaryDataViewModel.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\InstanceCheck.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Search.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\FilamentGroupPopup.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\NotificationManager.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\UnsavedChangesDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\UserPresetsDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ExtraRenderers.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ProjectDirtyStateManager.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DesktopIntegrationDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DragCanvas.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PublishDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\RecenterDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PrivacyUpdateDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BonjourDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BindDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PartSkipCommon.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PartSkipDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SkipPartCanvas.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ModelMall.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SelectMachine.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PrePrintChecker.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SelectMachinePop.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SendToPrinter.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AmsMappingPopup.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\ReleaseNote.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\HelioReleaseNote.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\HelioHistoryDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\BetaVersionDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SingleChoiceDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CaliHistoryDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CalibrationPanel.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CalibrationWizard.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CalibrationWizardPage.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CalibrationWizardStartPage.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CalibrationWizardPresetPage.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CalibrationWizardCaliPage.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CalibrationWizardSavePage.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\calib_dlg.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\Calibration.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PrintOptionsDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\PurgeModeDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SafetyOptionsDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\CreatePresetsDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\json_diff.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\KBShortcutsDialog.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MultiMachine.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MultiMachinePage.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MultiMachineManagerPage.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MultiPrintJob.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MultiSendMachineModel.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MultiTaskManagerPage.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\MultiTaskModel.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\SendMultiMachinePage.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\TaskManager.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\RenderEnums.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GCodeRenderer\AdvancedRenderer.hpp">
+      <Filter>GUI\GCodeRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GCodeRenderer\BaseRenderer.hpp">
+      <Filter>GUI\GCodeRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\GCodeRenderer\LegacyRenderer.hpp">
+      <Filter>GUI\GCodeRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\WxFontUtils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\EmbossStyleManager.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\FixModelByWin10.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\Bonjour.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\FileHelp.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\PresetUpdater.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\Process.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\RaycastManager.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\Profile.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\UndoRedo.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\HexFile.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\TCPConsole.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\minilzo_extension.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\ColorSpaceConvert.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\OctoPrint.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\PrintHost.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\NetworkAgent.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\MKS.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\CpuMemory.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\Duet.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\FlashAir.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\AstroBox.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\Repetier.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\CalibUtils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\ProfileDescription.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\FontConfigHelp.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\FontUtils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\HelioDragon.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\FileTransferUtils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\FileTransferObject.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\CertificateVerify.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\FrameBuffer.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevAxis.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevBed.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevCalib.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevChamber.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevConfig.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevConfigUtil.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevCtrl.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevDefs.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevExtensionTool.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevExtruderSystem.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevFan.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevFilaAmsSetting.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevFilaBlackList.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevFilaSystem.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevFilaSwitch.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevFirmware.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevPrintOptions.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevPrintTaskInfo.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevHMS.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevInfo.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevLamp.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevManager.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevMapping.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevMappingNozzle.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevNozzleRack.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevNozzleSystem.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevStatus.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevStorage.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevUpgrade.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevUtil.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceCore\DevUtilBackend.h">
+      <Filter>GUI\DeviceCore</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceTab\uiAmsHumidityPopup.h">
+      <Filter>GUI\DeviceTab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceTab\uiAMSBestPositionPopup.hpp">
+      <Filter>GUI\DeviceTab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceTab\uiDeviceUpdateVersion.h">
+      <Filter>GUI\DeviceTab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceTab\wgtDeviceNozzleRack.h">
+      <Filter>GUI\DeviceTab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceTab\wgtDeviceNozzleRackUpdate.h">
+      <Filter>GUI\DeviceTab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceTab\wgtDeviceNozzleSelect.h">
+      <Filter>GUI\DeviceTab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceTab\wgtMsgBox.h">
+      <Filter>GUI\DeviceTab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceTab\wgtMsgPanel.h">
+      <Filter>GUI\DeviceTab</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\fila_manager\wgtFilaManagerFeature.h">
+      <Filter>GUI\fila_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\fila_manager\wgtFilaManagerStore.h">
+      <Filter>GUI\fila_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\fila_manager\wgtFilaManagerPanel.h">
+      <Filter>GUI\fila_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\fila_manager\wgtFilaManagerSync.h">
+      <Filter>GUI\fila_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\fila_manager\wgtFilaManagerCloudClient.h">
+      <Filter>GUI\fila_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\fila_manager\wgtFilaManagerCloudSync.h">
+      <Filter>GUI\fila_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\fila_manager\wgtFilaManagerCloudDispatcher.h">
+      <Filter>GUI\fila_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\fila_manager\AmsAutoPushThrottle.h">
+      <Filter>GUI\fila_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceWeb\DeviceHttpServer.hpp">
+      <Filter>GUI\DeviceWeb</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceWeb\DeviceWebPage.hpp">
+      <Filter>GUI\DeviceWeb</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceWeb\DeviceWebHost.hpp">
+      <Filter>GUI\DeviceWeb</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceWeb\DeviceWebBridge.hpp">
+      <Filter>GUI\DeviceWeb</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceWeb\DeviceWebModel.hpp">
+      <Filter>GUI\DeviceWeb</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceWeb\IViewModel.hpp">
+      <Filter>GUI\DeviceWeb</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceWeb\DeviceWebManager.hpp">
+      <Filter>GUI\DeviceWeb</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\DeviceWeb\ViewModels\FilamentManager\FilamentManagerVM.hpp">
+      <Filter>GUI\DeviceWeb\ViewModels\FilamentManager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\dark_mode\dark_mode.hpp">
+      <Filter>GUI\dark_mode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\dark_mode\IatHook.hpp">
+      <Filter>GUI\dark_mode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\dark_mode\UAHMenuBar.hpp">
+      <Filter>GUI\dark_mode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\dark_mode.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\AVVideoDecoder.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\wxMediaCtrl2.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\wxMediaCtrl3.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\GUI\WindowsNativeVisualSmoke.hpp">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\slic3r\CMakeFiles\libslic3r_gui.dir\Debug\cmake_pch.h">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\slic3r\CMakeFiles\libslic3r_gui.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\slic3r\CMakeFiles\libslic3r_gui.dir\MinSizeRel\cmake_pch.h">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\slic3r\CMakeFiles\libslic3r_gui.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\slic3r\CMakeFiles\libslic3r_gui.dir\Release\cmake_pch.h">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\slic3r\CMakeFiles\libslic3r_gui.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\slic3r\CMakeFiles\libslic3r_gui.dir\RelWithDebInfo\cmake_pch.h">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\slic3r\CMakeFiles\libslic3r_gui.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7808321B-607A-3A37-B956-FD29FF64F23B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{6592597E-B107-3EB3-B23C-AF3C8A548DF0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\DeviceCore">
+      <UniqueIdentifier>{1B66A195-6081-3BAC-A312-B6137E4CC107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\DeviceTab">
+      <UniqueIdentifier>{F0CD6DAC-29CC-3173-981D-D2761EEF2176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\DeviceWeb">
+      <UniqueIdentifier>{255C3DBD-9856-39AB-B7CA-AE08CAF404B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\DeviceWeb\ViewModels">
+      <UniqueIdentifier>{C392EFD1-F82F-3900-803E-0D154CE93BEB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\DeviceWeb\ViewModels\FilamentManager">
+      <UniqueIdentifier>{4DBDA69B-BB59-3999-B522-4CCF28A0C662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\GCodeRenderer">
+      <UniqueIdentifier>{F08C8B3B-6BA8-35C1-BA5B-22D688EEBB51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Gizmos">
+      <UniqueIdentifier>{ECE8F03F-D42E-30BA-9FEB-35FE5E07AE2F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Jobs">
+      <UniqueIdentifier>{05174C98-A9D7-3BB0-BD97-00C33BC000DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\MP4">
+      <UniqueIdentifier>{E6EBB7EC-D64F-3246-A508-8DE901348ACA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Overview">
+      <UniqueIdentifier>{152BC47C-C5B5-3944-90D4-56F4D07C2AD2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Printer">
+      <UniqueIdentifier>{09FD0F3C-7476-3A2E-9D8E-60BEC26BD009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\UIHelpers">
+      <UniqueIdentifier>{18CAAEAA-8C66-3677-B19F-B0F672DD7BB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Widgets">
+      <UniqueIdentifier>{C9605938-04AB-3369-8343-03D1943214CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\dark_mode">
+      <UniqueIdentifier>{A32572BF-BE44-3EF6-98BB-6E979383DFFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\fila_manager">
+      <UniqueIdentifier>{F020624D-9C72-3269-9ECF-D087E1E7478A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{F07F4273-EEE5-3836-9DC0-0F73188F89A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{04F8C818-681C-3F20-BD3F-14480F026517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{AAB4375A-B6B0-372B-A95F-2DBE424F1815}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

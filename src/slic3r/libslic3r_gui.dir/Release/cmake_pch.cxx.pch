@@ -1,5 +1,6 @@
 version desktop-material/cheap-lfs/v1
 release-tag bambu-build-20260723-1105-41718cda
-asset-name cmake_pch.cxx.pch
+asset-name cmake_pch.cxx.pch.cheap-lfs-aae255240caa.deflate
 size 605028352
 sha256 aae255240caa3e82737ecbcd24cd9626dd9bddeba26623ccacbad1368b5fe615
+part-deflate aae255240caa3e82737ecbcd24cd9626dd9bddeba26623ccacbad1368b5fe615 605028352 118617674 cmake_pch.cxx.pch.cheap-lfs-aae255240caa.deflate

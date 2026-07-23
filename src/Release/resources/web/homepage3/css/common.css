@@ -1,0 +1,328 @@
+/*---Bundled design fonts---------------------------------------------------*/
+/* Ship Roboto / Roboto Mono with the app so the CEF webview renders the MD3
+   type system regardless of which fonts the host OS has installed. Paths are
+   relative to this file (resources/web/homepage3/css/) and point at the
+   bundled TTFs under resources/fonts/. */
+@font-face
+{
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("../../../fonts/Roboto-Regular.ttf") format("truetype");
+}
+@font-face
+{
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url("../../../fonts/Roboto-Medium.ttf") format("truetype");
+}
+@font-face
+{
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url("../../../fonts/Roboto-Bold.ttf") format("truetype");
+}
+@font-face
+{
+	font-family: "Roboto Mono";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("../../../fonts/RobotoMono-Regular.ttf") format("truetype");
+}
+@font-face
+{
+	font-family: "Roboto Mono";
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url("../../../fonts/RobotoMono-Medium.ttf") format("truetype");
+}
+@font-face
+{
+	font-family: "Roboto Mono";
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url("../../../fonts/RobotoMono-Bold.ttf") format("truetype");
+}
+
+/*---Material Design 3 color system---*/
+:root
+{
+	color-scheme: light;
+	--md-surface: #faf8fd;
+	--md-surface-dim: #dad9e0;
+	--md-surface-bright: #faf8fd;
+	--md-sc-lowest: #ffffff;
+	--md-sc-low: #f4f2f9;
+	--md-sc: #eeedf3;
+	--md-sc-high: #e8e7ee;
+	--md-sc-highest: #e2e1e9;
+	--md-on-surface: #1a1b1f;
+	--md-on-surface-variant: #44464e;
+	--md-outline: #75777f;
+	--md-outline-variant: #c5c6d0;
+	--md-inverse-surface: #2f3036;
+	--md-inverse-on: #f1f0f7;
+	--md-inverse-primary: #8bd89b;
+	--md-error: #ba1a1a;
+	--md-error-container: #ffdad6;
+	--md-on-error: #ffffff;
+	--md-on-error-container: #410002;
+	--md-scrim: rgba(0, 0, 0, 0.32);
+	--md-shadow: rgba(0, 0, 0, 0.16);
+	--md-primary: #146c2e;
+	--md-on-primary: #ffffff;
+	--md-primary-container: #a6f4b8;
+	--md-on-primary-container: #00210c;
+	--md-accent: #146c2e;
+	--md-secondary-container: #d7e8d9;
+	--md-on-secondary-container: #0e1f13;
+}
+
+/*---Whole---*/
+*
+{
+	padding:0px;
+	border: 0px;
+	margin: 0px;
+	font-family: "Roboto", system-ui, "Segoe UI", Oxygen, Ubuntu, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	border-color: var(--md-outline-variant);
+	user-select: none;
+}
+
+html, body {
+	line-height: 20px;
+    font-size: 14px;
+	padding:0px;
+	border: 0px;
+	margin: 0px;
+	background-color: var(--md-surface);
+	color: var(--md-on-surface);
+}
+
+/*---字体----*/
+.TextS1
+{
+	color:var(--md-on-surface);
+}
+
+.TextS2
+{
+	color:var(--md-on-surface-variant);
+}
+
+.TextS3
+{
+	color: var(--md-outline);
+}
+
+.DropdownBG
+{
+	background: var(--md-sc);
+}
+
+.DropdownHeaderBG
+{
+	background-color: var(--md-sc-high);
+}
+
+.DropdownFooter:hover {
+	background-color: var(--md-sc-highest);
+}
+/*-------按钮------*/
+.Btn_White
+{
+	background-color: transparent;
+	border: 1px solid var(--md-outline);
+	border-radius: 999px;
+	padding: 7px 20px;
+	color: var(--md-primary);
+	font-weight: 600;
+	cursor: pointer;
+	transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.Btn_White:hover
+{
+	background-color:var(--md-primary-container);
+	border-color: var(--md-primary);
+}
+
+.Btn_Green
+{
+	background-color:var(--md-primary);
+	border: 1px solid var(--md-primary);
+	border-radius: 999px;
+	color: var(--md-on-primary);
+	padding: 7px 20px;
+	font-weight: 600;
+	cursor: pointer;
+	box-shadow: 0 2px 8px var(--md-shadow);
+	transition: filter 0.15s ease, box-shadow 0.15s ease;
+}
+
+.Btn_Green:hover
+{
+	filter: brightness(1.08);
+	box-shadow: 0 3px 10px var(--md-shadow);
+	border-color: var(--md-primary);
+}
+
+/*---滚动条---*/
+.ZScrol::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 12px;     /*高宽分别对应横竖滚动条的尺寸*/
+	height: 10px;
+	padding: 2px;
+	width: 10px;
+}
+
+.ZScrol::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+	border-radius: 8px;
+	border: 2px solid transparent;
+	background-color: var(--md-outline-variant);
+	background-clip: content-box;
+}
+
+.ZScrol::-webkit-scrollbar-track {/*滚动条里面轨道*/
+	border-radius: 10px;
+	background: transparent;
+}
+
+/*------Top Menu-----*/
+#MenuArea
+{
+	display:flex;
+	margin-bottom: 26px;
+	flex-direction:row;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	min-height: 72px;
+	padding: 14px 22px;
+	box-sizing: border-box;
+	border-radius: 28px;
+	background: linear-gradient(120deg, var(--md-primary-container), var(--md-secondary-container));
+	color: var(--md-on-primary-container);
+}
+
+/* Leading brand title so the hero band reads as a header, not an empty band. */
+#HeroBrand
+{
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 0.2px;
+	color: var(--md-on-primary-container);
+	white-space: nowrap;
+	flex: 0 0 auto;
+}
+
+/* Right-aligned action cluster (search + project buttons). */
+#HeroActions
+{
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	flex: 0 1 auto;
+	min-width: 0;
+}
+
+#MenuBtnBlock
+{
+	display:flex;
+}
+
+.Menu_Btn
+{
+	display: flex;
+	align-items: center;
+	height: 48px;
+	box-sizing: border-box;
+	padding: 0 22px;
+	margin-right: 10px;
+}
+
+.Menu_Btn img
+{
+	margin-right: 6px;
+	width: 18px;
+}
+
+.Menu_Btn span
+{
+	display: inline-block;
+	width: 100%;
+	white-space: nowrap;
+}
+
+/*---弹性内容块---*/
+.GuideBlock
+{
+	margin: 0px 10px 24px 10px;
+	cursor: pointer;
+	background-color: var(--md-sc-low);
+	border: 1px solid var(--md-outline-variant);
+	border-radius: 16px;
+	overflow: hidden;
+	box-sizing: border-box;
+	transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.GuideBlock:hover
+{
+	border-color: var(--md-primary);
+	box-shadow: 0 3px 10px var(--md-shadow);
+}
+
+@media screen and (max-width: 815px) {
+	.GuideBlock
+	{
+		width: calc(50% - 20px);
+	}
+	.SingleGuideBar > :nth-child(n+3)
+	{
+		display: none;
+	}
+}
+
+@media screen and ( min-width:816px) and ( max-width:1087px )
+{
+	.GuideBlock
+	{
+		width: calc(33% - 20px);
+	}
+	.SingleGuideBar > :nth-child(n+4)
+	{
+		display: none;
+	}	
+}
+
+@media screen and ( min-width:1088px) and (max-width:1359px ) {
+	.GuideBlock
+	{
+		width: calc(25% - 20px);
+	}
+	.SingleGuideBar > :nth-child(n+5)
+	{
+		display: none;
+	}	
+}
+
+@media screen and ( min-width:1360px) {
+	.GuideBlock
+	{
+		width: calc(20% - 20px);
+	}
+	.SingleGuideBar > :nth-child(n+6)
+	{
+		display: none;
+	}
+}
+
+/*---打开/新建项目---*/

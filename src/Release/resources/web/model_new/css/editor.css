@@ -1,0 +1,301 @@
+/*---Material Design 3 color system (light). Dark override is appended by
+   globalapi.js -> css/dark.css when the app is in dark mode.
+   Values mirror ui-md3/design-system/tokens/colors.css. ---*/
+:root {
+  color-scheme: light;
+  --md-surface: #faf8fd;
+  --md-surface-dim: #dad9e0;
+  --md-surface-bright: #faf8fd;
+  --md-sc-lowest: #ffffff;
+  --md-sc-low: #f4f2f9;
+  --md-sc: #eeedf3;
+  --md-sc-high: #e8e7ee;
+  --md-sc-highest: #e2e1e9;
+  --md-on-surface: #1a1b1f;
+  --md-on-surface-variant: #44464e;
+  --md-outline: #75777f;
+  --md-outline-variant: #c5c6d0;
+  --md-inverse-surface: #2f3036;
+  --md-inverse-on: #f1f0f7;
+  --md-inverse-primary: #8bd89b;
+  --md-error: #ba1a1a;
+  --md-error-container: #ffdad6;
+  --md-on-error: #ffffff;
+  --md-on-error-container: #410002;
+  --md-scrim: rgba(0, 0, 0, 0.32);
+  --md-shadow: rgba(0, 0, 0, 0.16);
+  --md-primary: #146c2e;
+  --md-on-primary: #ffffff;
+  --md-primary-container: #a6f4b8;
+  --md-on-primary-container: #00210c;
+  --md-accent: #146c2e;
+  --md-secondary-container: #d7e8d9;
+  --md-on-secondary-container: #0e1f13;
+}
+
+*{
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+  font-family: "Roboto", system-ui, "Segoe UI", Oxygen, Ubuntu, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	border-color: var(--md-outline-variant);
+	user-select: none;
+}
+html, body {
+	line-height: 20px;
+  font-size: 14px;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	background-color: var(--md-surface);
+	color: var(--md-on-surface);
+}
+body {
+  /* display: flex;
+  justify-content: center; */
+}
+.topTool {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--md-sc-lowest);
+  padding: 0px 18px;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 1000;
+  box-shadow: 0 2px 4px 0 var(--md-shadow);
+}
+.returnBtn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.returnBtn label {
+  cursor: pointer;
+}
+.saveBtn {
+  background-color: var(--md-primary);
+  padding: 9px 20px;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--md-on-primary);
+}
+.container {
+  width: 968px;
+  padding: 36px 50px;
+  margin: 50px auto 40px;
+}
+.editorGroup {
+  margin-bottom: 16px;
+}
+.editorTitle {
+  color: var(--md-on-surface);
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.required {
+  text-indent: -10px;
+}
+.required::before {
+  content: "*";
+  color: var(--md-error);
+  margin-right: 4px;
+}
+.editorInput {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid var(--md-outline-variant);
+  background-color: var(--md-sc-lowest);
+  color: var(--md-on-surface);
+  padding-left: 16px;
+}
+.editorInput:focus {
+  border-color: var(--md-primary);
+  outline: none;
+}
+.comment {
+  font-size: 12px;
+  color: var(--md-on-surface-variant);
+}
+/*upload button*/
+.uploadBox {
+  width: 104px;
+  height: 76px;
+  border-radius: 10px;
+  border: 1px solid var(--md-outline-variant);
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.uploadBox:hover {
+  border-color: var(--md-primary);
+}
+.uploadText {
+  color: var(--md-on-surface-variant);
+  font-size: 12px;
+  margin-top: 8px;
+}
+.uploadIcon {
+  width: 20px;
+}
+.uploadBox input[type="file"] {
+  display: none;
+}
+/*image preview*/
+.imageGroup {
+  display: flex;
+  gap: 16px;
+}
+.imagePreview {
+  position: relative;
+  width: 104px;
+  height: 76px;
+  background-size: cover;
+  background-position: center;
+  flex: 0 0 auto;
+}
+.imagePreview img {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;;
+}
+.imagePreview:hover .setModelCover {
+  display: flex;
+}
+.imagePreview:hover img {
+  display: block;
+}
+.imageList {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.modelCover {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--md-primary);
+  color: var(--md-on-primary);
+  transition: opacity 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+}
+.setModelCover {
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  width: 90%;
+  background-color: var(--md-primary);
+  color: var(--md-on-primary);
+  transition: opacity 0.3s;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+  margin: 0 auto;
+}
+/*ckeditor custom styles*/
+:root {
+  --ck-color-focus-border: var(--md-primary) !important;
+  --ck-color-button-on-hover-background: var(--md-primary-container) !important;
+  --ck-color-button-on-color: var(--md-primary) !important;
+  --ck-color-button-on-background: var(--md-primary-container) !important;
+  --ck-color-focus-outer-shadow: var(--md-primary-container) !important;
+}
+.ck-powered-by {
+  display: none !important;
+}
+.ck-editor__editable,
+.ck-content {
+  min-height: 100px !important;
+}
+.ck-editor__editable_inline {
+  padding: 12px 16px 12px 36px !important;
+  box-sizing: border-box;
+}
+.ck-editor__editable, .ck-sticky-panel__content {
+  border-color: var(--md-outline-variant) !important;
+}
+/*editor accessories*/
+.editorSubTitle {
+  color: var(--md-on-surface-variant);
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.accessoriesButton {
+  border-radius: 999px;
+  border: 1px solid var(--md-primary);
+  height: 24px;
+  padding: 4px 8px;
+  color: var(--md-primary);
+  font-weight: 600;
+  display: inline-flex;
+  position: relative;
+}
+.accessory-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.titleJustified {
+  display: flex;
+  justify-content: space-between;
+}
+.attachment {
+  display: inline-block;
+  border-radius: 10px;
+  border: 1px solid var(--md-outline-variant);
+  width: 350px;
+  font-size: 14px;
+  padding: 6px 16px;
+  display: flex;
+  align-items: center;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-all;
+  cursor: pointer;
+  /* background: var(--md-sc-low); */
+}
+.attachment-icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 12px;
+}
+.attachment-delete {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+}
+hr {
+  margin-top: 27px;
+  margin-bottom: 19px;
+  border-top: 1px solid var(--md-outline-variant)
+}

@@ -1,0 +1,112 @@
+/* ==========================================================================
+   MD3 dark override. Injected on top of common.css by globalapi.js
+   (SwitchDarkMode) when the Studio theme is dark. Redefining the --md-*
+   role tokens here re-themes every token-driven rule in common.css and the
+   per-page sheets automatically; the element rules below only cover the few
+   colours that are not yet expressed as tokens. Dark values mirror
+   src/slic3r/GUI/Widgets/MD3Tokens.hpp (Dark::) and ui-md3 colors.css.
+   ========================================================================== */
+:root
+{
+	--md-surface:#1b1c21;
+	--md-surface-dim:#161619;
+	--md-sc-lowest:#131317;
+	--md-sc-low:#202127;
+	--md-sc:#25262b;
+	--md-sc-high:#2f3036;
+	--md-sc-highest:#393a41;
+	--md-on-surface:#e8e7ee;
+	--md-on-surface-variant:#cdced8;
+	--md-outline:#94959f;
+	--md-outline-variant:#4a4c54;
+	--md-primary:#8bd89b;
+	--md-on-primary:#00391a;
+	--md-primary-container:#095228;
+	--md-on-primary-container:#a6f4b8;
+	--md-secondary-container:#2b3a2f;
+	--md-on-secondary-container:#cfe9d3;
+	--md-error:#ffb4ab;
+	--md-error-container:#93000a;
+	--md-on-error:#690005;
+}
+
+*
+{
+	color: var(--md-on-surface);
+	border-color: var(--md-outline-variant);
+}
+
+body
+{
+	background-color: var(--md-surface);
+	color: var(--md-on-surface);
+}
+
+.ZScrol::-webkit-scrollbar-thumb {
+    background-color: var(--md-outline-variant);
+}
+
+.ZScrol::-webkit-scrollbar-track {
+        background: transparent;
+}
+
+#Title div
+{
+	color: var(--md-on-surface);
+}
+
+/*-----Button-----*/
+.GrayBtn
+{
+	border: 1px solid var(--md-outline);
+	color: var(--md-primary);
+}
+
+.GrayBtn:hover
+{
+	background-color: var(--md-sc-high);
+	color: var(--md-primary);
+}
+
+/*-------Text------*/
+
+.TextS1
+{
+	color: var(--md-on-surface);
+}
+
+.TextS2
+{
+	color: var(--md-on-surface-variant);
+}
+
+/*---Policy---*/
+.TextArea1
+{
+	background-color: var(--md-sc-low);
+	color: var(--md-on-surface-variant);
+}
+
+/*----Region---*/
+.RegionItem:hover
+{
+	background-color: var(--md-sc-high);
+}
+
+.RegionSelected,
+.RegionSelected:hover
+{
+	background-color: var(--md-secondary-container);
+	color: var(--md-on-secondary-container);
+}
+
+/*----Menu----*/
+#Title div.TitleUnselected
+{
+	color: var(--md-on-surface-variant);
+}
+
+/*----pull region---*/
+.CValues {
+  background-color: var(--md-sc);
+}

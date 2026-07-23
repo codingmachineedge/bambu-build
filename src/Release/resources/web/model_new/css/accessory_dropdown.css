@@ -1,0 +1,70 @@
+.accessory-rule-wrapper {
+  border: 1px solid var(--md-outline-variant);
+  border-radius: 12px;
+  padding: 8px 8px;
+  background: var(--md-sc-lowest);
+  position: absolute;
+  width: 248px;
+  right: 0;
+  top: -390px;
+  font-size: 12px;
+  box-shadow: 0 8px 24px var(--md-shadow);
+}
+
+.accessory-rule-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.accessory-rule-list input {
+  display: none;
+}
+
+.accessory-rule-card {
+  position: relative;
+  padding: 8px 12px;
+  border: 1px solid var(--md-outline-variant);
+  border-radius: 10px;
+  /* background: #fff; */
+  box-shadow: 0 2px 4px var(--md-shadow);
+}
+
+.accessory-rule-card::after {
+  content: '\203A';
+  position: absolute;
+  right: 15px;
+  top: 8px;
+  font-size: 16px;
+  color: var(--md-outline);
+}
+
+.accessory-rule-card:hover {
+  border: 1px solid var(--md-primary);
+}
+.accessory-rule-card:hover .accessory-rule-title {
+  color: var(--md-primary);
+}
+
+.accessory-rule-title {
+  font-weight: 600;
+  color: var(--md-on-surface);
+}
+
+.accessory-rule-meta {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  row-gap: 4px;
+  column-gap: 6px;
+  font-size: 13px;
+  color: var(--md-on-surface-variant);
+}
+
+.accessory-rule-meta dt {
+  font-weight: 400;
+  color: var(--md-on-surface-variant);
+}
+
+.accessory-rule-meta dd {
+  font-weight: 400;
+  text-align: right;;
+}

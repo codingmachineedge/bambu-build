@@ -1,0 +1,252 @@
+/*------------------*/
+#DebugText
+{
+	height:30px;
+}
+
+/*------------------*/
+body
+{
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background-color: var(--md-surface);
+	color: var(--md-on-surface);
+}
+
+/*------MakerLab-------*/
+#MakerlabArea
+{
+	display:none;
+}
+
+#LabList
+{
+	display:flex;
+	
+}
+
+.MakerlabItem
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-all;
+	position: relative;
+	cursor: pointer;
+	border-radius: 16px;
+	border: 1px solid var(--md-outline-variant);
+	background-color: var(--md-sc-low);
+}
+
+.MakerlabImg img
+{
+	width: 100%;
+	aspect-ratio: 16/9;
+	object-fit: cover;
+	display: block;
+}
+
+.MakerlabTextBlock
+{
+	background-color: var(--md-sc-low);
+	padding: 10px 12px 12px;
+}
+
+.MakerlabTextBlock div
+{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;	
+}
+
+.MakerlabName
+{
+	color:var(--md-on-surface);
+	font-weight:600;
+}
+
+.MakerlabDesc
+{
+	color:var(--md-on-surface-variant);
+	font-size: 11px;
+}
+
+.MakerlabAuthor
+{
+	font-size: 11px;
+	color: var(--md-outline);
+}
+
+
+/*------Print History------*/
+#PrintHistoryArea
+{
+	display: none;
+	min-height: 100px;
+}
+
+#PrintHistory_Refresh_Btn
+{
+	margin-left: 30px;
+	cursor: pointer;
+	filter: none;
+	opacity: 0.72;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	transition: background-color 0.15s ease, opacity 0.15s ease;
+}
+
+#PrintHistory_Refresh_Btn:hover
+{
+	width: 24px;
+	background-color: var(--md-primary-container);
+	opacity: 1;
+}
+
+#PrintHistoryList
+{
+	display: flex;
+}
+
+.PrintHistoryItem
+{
+	position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-all;
+	position: relative;
+	cursor: pointer;
+	border-radius: 16px;
+	overflow: hidden;
+	background-color: var(--md-sc-low);
+}
+
+.PrintHistoryImg
+{
+	border-radius: 15px 15px 0 0;
+	border-bottom: 1px solid var(--md-outline-variant);
+	background-color: var(--md-sc-high);
+}
+
+.PrintHistoryImg img
+{
+	width: 100%;
+	aspect-ratio: 4/3;
+	object-fit:contain;
+	display: block;
+}
+
+.PrintHistoryTextBlock
+{
+	display: flex;
+	flex-direction: column;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+	padding: 10px 12px 12px;
+}
+
+.PrintHistoryName
+{
+	font-size: 14px;
+	font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;	
+}
+
+.PrintHistory_Line2
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 12px;	
+}
+
+.PrintHistory_Line2 img
+{
+	width: 14px;
+	height: 14px;
+	margin-right: 4px;
+}
+
+.PH_PrintTime
+{	
+	width: 50px;
+	margin-right: 4px;
+}
+
+.PH_DeviceName
+{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;	
+}
+
+.PrintHistoryInfo
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.PrintHistoryPlate
+{
+	display: flex;
+	font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;	
+}
+
+.PH_PlateName
+{
+	flex-grow: 1;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;	
+}
+
+.PH_PrintDate
+{
+	margin-left: 4px;
+}
+
+
+.PrintHistoryStatus
+{
+	margin-left: 6px;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.PH_Status_Printing
+{
+	color: var(--md-primary);
+}
+
+.PH_Status_Fail
+{
+	color: var(--md-error);
+}
+
+.PH_Status_Success
+{
+	color: var(--md-primary);
+}
+
+.PH_Gcode_Icon
+{
+	background-color: var(--md-primary-container);
+	display: inline-block;
+	padding: 6px 12px;
+	border-radius: 15px 0px 12px 0px;
+	color: var(--md-on-primary-container);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-weight: 600;
+}
+

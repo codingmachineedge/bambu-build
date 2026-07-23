@@ -1,0 +1,1003 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r\CMakeFiles\libslic3r.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ArcFitter.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\pchheader.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\AABBMesh.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Algorithm\LineSegmentation\LineSegmentation.cpp">
+      <Filter>Algorithm\LineSegmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\LogSink.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\BoundingBox.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\BridgeDetector.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ByObjectPrintData.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\FaceDetector.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Brim.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\BuildVolume.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Calib.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Circle.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\clipper.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ClipperUtils.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Clipper2Utils.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Color.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Config.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\CurveAnalyzer.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\CutUtils.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\EdgeGrid.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ElephantFootCompensation.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Emboss.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ExPolygon.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ExPolygonsIndex.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Extruder.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ExtrusionEntity.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ExtrusionEntityCollection.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ExtrusionSimulator.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\Fill.cpp">
+      <Filter>Fill</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\Fill3DHoneycomb.cpp">
+      <Filter>Fill</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillAdaptive.cpp">
+      <Filter>Fill</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillBase.cpp">
+      <Filter>Fill</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillConcentric.cpp">
+      <Filter>Fill</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillConcentricInternal.cpp">
+      <Filter>Fill</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillCrossHatch.cpp">
+      <Filter>Fill</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillHoneycomb.cpp">
+      <Filter>Fill</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillGyroid.cpp">
+      <Filter>Fill</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillPlanePath.cpp">
+      <Filter>Fill</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillLine.cpp">
+      <Filter>Fill</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillLightning.cpp">
+      <Filter>Fill</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\Lightning\DistanceField.cpp">
+      <Filter>Fill\Lightning</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\Lightning\Generator.cpp">
+      <Filter>Fill\Lightning</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\Lightning\Layer.cpp">
+      <Filter>Fill\Lightning</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\Lightning\TreeNode.cpp">
+      <Filter>Fill\Lightning</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillRectilinear.cpp">
+      <Filter>Fill</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillFloatingConcentric.cpp">
+      <Filter>Fill</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Flow.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Frustum.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\FlushVolCalc.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\FuzzySkin.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\3mf.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\AssemblyStepsJson.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\AssemblyTreeJson.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\bbs_3mf.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\AMF.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\OBJ.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\objparser.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\STEP.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\STL.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\SL1.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\svg.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\AssimpImport.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\TexturePainting.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\TextureToColor\TextureToColor.cpp">
+      <Filter>TextureToColor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\TextureToColor\ColorUtils.cpp">
+      <Filter>TextureToColor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\ThumbnailData.cpp">
+      <Filter>GCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\GCodeEditor.cpp">
+      <Filter>GCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\PostProcessor.cpp">
+      <Filter>GCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\PrintExtents.cpp">
+      <Filter>GCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\RetractWhenCrossingPerimeters.cpp">
+      <Filter>GCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\SpiralVase.cpp">
+      <Filter>GCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\SeamPlacer.cpp">
+      <Filter>GCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\ToolOrdering.cpp">
+      <Filter>GCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\WipeTower.cpp">
+      <Filter>GCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\GCodeProcessor.cpp">
+      <Filter>GCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\AvoidCrossingPerimeters.cpp">
+      <Filter>GCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\ConflictChecker.cpp">
+      <Filter>GCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\BedExcludeChecker.cpp">
+      <Filter>GCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\Smoothing.cpp">
+      <Filter>GCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\CoolingBuffer.cpp">
+      <Filter>GCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\TimelapsePosPicker.cpp">
+      <Filter>GCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCodeReader.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCodeWriter.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry\Circle.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry\ConvexHull.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry\MedialAxis.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry\Voronoi.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry\VoronoiOffset.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry\VoronoiUtils.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry\VoronoiUtilsCgal.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\InternalBridgeDetector.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\JumpPointSearch.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Layer.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\LayerRegion.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Line.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\BlacklistedLibraryCheck.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\LocalesUtils.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Model.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ModelArrange.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MultiMaterialSegmentation.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Measure.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\CustomGCode.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arrange.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\NormalUtils.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ObjColorUtils.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Orient.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MultiPoint.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ObjectID.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\NSVGUtils.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ParameterUtils.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PerimeterGenerator.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\OverhangDetector.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PlaceholderParser.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Platform.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Point.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Polygon.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MutablePolygon.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PolygonTrimmer.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Polyline.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Preset.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PresetBundle.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ProjectTask.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PrincipalComponents2D.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\AppConfig.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Print.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PrintApply.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PrintBase.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PrintConfig.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PrintObject.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PrintObjectSlice.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PrintRegion.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PNGReadWrite.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\QuadricEdgeCollapse.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Semver.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ShortEdgeCollapse.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ShortestPath.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLAPrint.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLAPrintSteps.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Slicing.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SlicesToTriangleMesh.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SlicingAdaptive.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Support\SupportCommon.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Support\SupportMaterial.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Support\TreeSupport.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Support\TreeSupport3D.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Support\TreeModelVolumes.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MinimumSpanningTree.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Surface.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SurfaceCollection.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SVG.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Tesselate.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\TriangleMesh.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MeshDiagnostics.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\TriangleMeshDeal.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\TriangleMeshSlicer.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\TriangulateWall.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\utils.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Time.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Timer.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Thread.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\TriangleSelector.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\TriangleSetSampling.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\VariableWidth.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Zipper.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MinAreaBoundingBox.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\miniz_extension.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\Pad.cpp">
+      <Filter>SLA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\SupportTreeMesher.cpp">
+      <Filter>SLA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\SupportTreeBuildsteps.cpp">
+      <Filter>SLA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\SupportTreeBuilder.cpp">
+      <Filter>SLA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\SupportTree.cpp">
+      <Filter>SLA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\Rotfinder.cpp">
+      <Filter>SLA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\SpatIndex.cpp">
+      <Filter>SLA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\RasterBase.cpp">
+      <Filter>SLA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\RasterToPolygons.cpp">
+      <Filter>SLA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\ConcaveHull.cpp">
+      <Filter>SLA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\Hollowing.cpp">
+      <Filter>SLA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\SupportPointGenerator.cpp">
+      <Filter>SLA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\IndexedMesh.cpp">
+      <Filter>SLA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\Clustering.cpp">
+      <Filter>SLA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\BeadingStrategy\BeadingStrategy.cpp">
+      <Filter>Arachne\BeadingStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\BeadingStrategy\BeadingStrategyFactory.cpp">
+      <Filter>Arachne\BeadingStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\BeadingStrategy\DistributedBeadingStrategy.cpp">
+      <Filter>Arachne\BeadingStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\BeadingStrategy\LimitedBeadingStrategy.cpp">
+      <Filter>Arachne\BeadingStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\BeadingStrategy\OuterWallInsetBeadingStrategy.cpp">
+      <Filter>Arachne\BeadingStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\BeadingStrategy\RedistributeBeadingStrategy.cpp">
+      <Filter>Arachne\BeadingStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\BeadingStrategy\WideningBeadingStrategy.cpp">
+      <Filter>Arachne\BeadingStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\BeadingStrategy\OuterWallContourStrategy.cpp">
+      <Filter>Arachne\BeadingStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\utils\ExtrusionJunction.cpp">
+      <Filter>Arachne\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\utils\ExtrusionLine.cpp">
+      <Filter>Arachne\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\utils\SquareGrid.cpp">
+      <Filter>Arachne\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\utils\PolylineStitcher.cpp">
+      <Filter>Arachne\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\SkeletalTrapezoidation.cpp">
+      <Filter>Arachne</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\SkeletalTrapezoidationGraph.cpp">
+      <Filter>Arachne</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\WallToolPaths.cpp">
+      <Filter>Arachne</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Shape\TextShape.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\RegionExpansion.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\FlushVolPredictor.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\FilamentGroup.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\FilamentGroupUtils.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\ToolOrderUtils.cpp">
+      <Filter>GCode</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Interlocking\InterlockingGenerator.cpp">
+      <Filter>Interlocking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Interlocking\VoxelUtils.cpp">
+      <Filter>Interlocking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MultiNozzleUtils.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\FilamentMixer.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ColorDecomposeRecipe.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\BBLUtil.cpp">
+      <Filter>Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\Http.cpp">
+      <Filter>Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\OpenVDBUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ArcFitter.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\pchheader.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\AABBTreeIndirect.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\AABBTreeLines.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\AABBMesh.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Algorithm\LineSegmentation\LineSegmentation.hpp">
+      <Filter>Algorithm\LineSegmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\AnyPtr.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\AStar.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\LogSink.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\BoundingBox.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\BridgeDetector.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ByObjectPrintData.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\FaceDetector.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Brim.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\BuildVolume.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Calib.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Circle.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\clipper.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ClipperUtils.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Clipper2Utils.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Color.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\CommonDefs.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Config.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\CurveAnalyzer.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\CutUtils.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\EdgeGrid.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ElephantFootCompensation.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Emboss.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\EmbossShape.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\enum_bitmask.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ExPolygon.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ExPolygonSerialize.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ExPolygonsIndex.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Extruder.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ExtrusionEntity.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ExtrusionEntityCollection.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ExtrusionSimulator.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\FileParserError.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\Fill.hpp">
+      <Filter>Fill</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\Fill3DHoneycomb.hpp">
+      <Filter>Fill</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillAdaptive.hpp">
+      <Filter>Fill</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillBase.hpp">
+      <Filter>Fill</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillConcentric.hpp">
+      <Filter>Fill</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillConcentricInternal.hpp">
+      <Filter>Fill</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillCrossHatch.hpp">
+      <Filter>Fill</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillHoneycomb.hpp">
+      <Filter>Fill</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillGyroid.hpp">
+      <Filter>Fill</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillPlanePath.hpp">
+      <Filter>Fill</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillLine.hpp">
+      <Filter>Fill</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillLightning.hpp">
+      <Filter>Fill</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\Lightning\DistanceField.hpp">
+      <Filter>Fill\Lightning</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\Lightning\Generator.hpp">
+      <Filter>Fill\Lightning</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\Lightning\Layer.hpp">
+      <Filter>Fill\Lightning</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\Lightning\TreeNode.hpp">
+      <Filter>Fill\Lightning</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillRectilinear.hpp">
+      <Filter>Fill</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Fill\FillFloatingConcentric.hpp">
+      <Filter>Fill</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Flow.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Frustum.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\FlushVolCalc.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\FuzzySkin.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\format.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\3mf.hpp">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\AssemblyStepsJson.hpp">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\AssemblyTreeJson.hpp">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\bbs_3mf.hpp">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\AMF.hpp">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\OBJ.hpp">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\objparser.hpp">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\STEP.hpp">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\STL.hpp">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\SL1.hpp">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\svg.hpp">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Format\AssimpImport.hpp">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\TexturePainting.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Win10ModelRepair.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\TextureToColor\TextureToColor.hpp">
+      <Filter>TextureToColor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\TextureToColor\ColorUtils.hpp">
+      <Filter>TextureToColor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\ThumbnailData.hpp">
+      <Filter>GCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\GCodeEditor.hpp">
+      <Filter>GCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\PostProcessor.hpp">
+      <Filter>GCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\PrintExtents.hpp">
+      <Filter>GCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\RetractWhenCrossingPerimeters.hpp">
+      <Filter>GCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\SpiralVase.hpp">
+      <Filter>GCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\SeamPlacer.hpp">
+      <Filter>GCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\ToolOrdering.hpp">
+      <Filter>GCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\WipeTower.hpp">
+      <Filter>GCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\GCodeProcessor.hpp">
+      <Filter>GCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\AvoidCrossingPerimeters.hpp">
+      <Filter>GCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\ConflictChecker.hpp">
+      <Filter>GCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\BedExcludeChecker.hpp">
+      <Filter>GCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\Smoothing.hpp">
+      <Filter>GCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\CoolingBuffer.hpp">
+      <Filter>GCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\TimelapsePosPicker.hpp">
+      <Filter>GCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCodeReader.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCodeWriter.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry\Bicubic.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry\Circle.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry\ConvexHull.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry\Curves.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry\MedialAxis.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry\Voronoi.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry\VoronoiOffset.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry\VoronoiUtils.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry\VoronoiUtilsCgal.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Geometry\VoronoiVisualUtils.hpp">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Int128.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\InternalBridgeDetector.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\JumpPointSearch.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\KDTreeIndirect.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Layer.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\libslic3r.h" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Line.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\BlacklistedLibraryCheck.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\LocalesUtils.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Model.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ModelArrange.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MultiMaterialSegmentation.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Measure.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MeasureUtils.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\CustomGCode.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arrange.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\NormalUtils.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ObjColorUtils.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Orient.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MultiPoint.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MutablePriorityQueue.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ObjectID.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\NSVGUtils.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ParameterUtils.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PerimeterGenerator.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\OverhangDetector.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PlaceholderParser.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Platform.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Point.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Polygon.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MutablePolygon.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PolygonTrimmer.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Polyline.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Preset.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PresetBundle.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ProjectTask.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PrincipalComponents2D.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\AppConfig.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Print.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PrintBase.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PrintConfig.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\PNGReadWrite.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\QuadricEdgeCollapse.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ShortEdgeCollapse.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ShortestPath.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLAPrintSteps.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLAPrint.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Slicing.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SlicesToTriangleMesh.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SlicingAdaptive.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Support\SupportCommon.hpp">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Support\SupportMaterial.hpp">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Support\TreeSupport.hpp">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Support\TreeSupport3D.hpp">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Support\TreeModelVolumes.hpp">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Support\TreeSupportCommon.hpp">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Support\SupportParameters.hpp">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MinimumSpanningTree.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Surface.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SurfaceCollection.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SurfaceMesh.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SVG.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Technologies.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Tesselate.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\TriangleMesh.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MeshDiagnostics.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\TriangleMeshDeal.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\TriangleMeshSlicer.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MeshSplitImpl.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\TriangulateWall.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Utils.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Time.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Timer.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Thread.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\TriangleSelector.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\TriangleSetSampling.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MTUtils.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\VariableWidth.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Zipper.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MinAreaBoundingBox.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\miniz_extension.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MarchingSquares.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Execution\Execution.hpp">
+      <Filter>Execution</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Execution\ExecutionSeq.hpp">
+      <Filter>Execution</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Execution\ExecutionTBB.hpp">
+      <Filter>Execution</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Optimize\Optimizer.hpp">
+      <Filter>Optimize</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Optimize\NLoptOptimizer.hpp">
+      <Filter>Optimize</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Optimize\BruteforceOptimizer.hpp">
+      <Filter>Optimize</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\Pad.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\SupportTreeBuilder.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\SupportTreeMesher.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\SupportTreeBuildsteps.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\Concurrency.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\SupportTree.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\Rotfinder.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\BoostAdapter.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\SpatIndex.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\RasterBase.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\AGGRaster.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\RasterToPolygons.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\ConcaveHull.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\Hollowing.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\JobController.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\SupportPoint.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\SupportPointGenerator.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\IndexedMesh.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\Clustering.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\SLA\ReprojectPointsOnMesh.hpp">
+      <Filter>SLA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\BeadingStrategy\BeadingStrategy.hpp">
+      <Filter>Arachne\BeadingStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\BeadingStrategy\BeadingStrategyFactory.hpp">
+      <Filter>Arachne\BeadingStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\BeadingStrategy\DistributedBeadingStrategy.hpp">
+      <Filter>Arachne\BeadingStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\BeadingStrategy\LimitedBeadingStrategy.hpp">
+      <Filter>Arachne\BeadingStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\BeadingStrategy\OuterWallInsetBeadingStrategy.hpp">
+      <Filter>Arachne\BeadingStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\BeadingStrategy\RedistributeBeadingStrategy.hpp">
+      <Filter>Arachne\BeadingStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\BeadingStrategy\WideningBeadingStrategy.hpp">
+      <Filter>Arachne\BeadingStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\BeadingStrategy\OuterWallContourStrategy.hpp">
+      <Filter>Arachne\BeadingStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\utils\ExtrusionJunction.hpp">
+      <Filter>Arachne\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\utils\ExtrusionLine.hpp">
+      <Filter>Arachne\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\utils\HalfEdge.hpp">
+      <Filter>Arachne\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\utils\HalfEdgeGraph.hpp">
+      <Filter>Arachne\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\utils\HalfEdgeNode.hpp">
+      <Filter>Arachne\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\utils\SparseGrid.hpp">
+      <Filter>Arachne\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\utils\SparsePointGrid.hpp">
+      <Filter>Arachne\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\utils\SparseLineGrid.hpp">
+      <Filter>Arachne\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\utils\SquareGrid.hpp">
+      <Filter>Arachne\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\utils\PolygonsPointIndex.hpp">
+      <Filter>Arachne\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\utils\PolygonsSegmentIndex.hpp">
+      <Filter>Arachne\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\utils\PolylineStitcher.hpp">
+      <Filter>Arachne\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\SkeletalTrapezoidation.hpp">
+      <Filter>Arachne</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\SkeletalTrapezoidationEdge.hpp">
+      <Filter>Arachne</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\SkeletalTrapezoidationGraph.hpp">
+      <Filter>Arachne</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\SkeletalTrapezoidationJoint.hpp">
+      <Filter>Arachne</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Arachne\WallToolPaths.hpp">
+      <Filter>Arachne</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Shape\TextShape.hpp">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\RegionExpansion.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ClipperZUtils.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\FlushVolPredictor.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\FilamentGroup.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\FilamentGroupUtils.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\GCode\ToolOrderUtils.hpp">
+      <Filter>GCode</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Interlocking\InterlockingGenerator.hpp">
+      <Filter>Interlocking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\Interlocking\VoxelUtils.hpp">
+      <Filter>Interlocking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\MultiNozzleUtils.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\FilamentMixer.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\FilamentMixerModel.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\ColorDecomposeRecipe.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\BBLUtil.hpp">
+      <Filter>Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\slic3r\Utils\Http.hpp">
+      <Filter>Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r\libslic3r_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\OpenVDBUtils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r\CMakeFiles\libslic3r.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r\CMakeFiles\libslic3r.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r\CMakeFiles\libslic3r.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r\CMakeFiles\libslic3r.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{86922922-C46B-3EF4-ABF6-B9482DCC3AD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\LineSegmentation">
+      <UniqueIdentifier>{539275D9-8FEA-3F7A-BA0B-5B57C06C1AEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arachne">
+      <UniqueIdentifier>{4269F470-7761-3655-84E4-31EE0357E98E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arachne\BeadingStrategy">
+      <UniqueIdentifier>{F82DD4A7-3172-3DCC-A2F2-61698DF037B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arachne\utils">
+      <UniqueIdentifier>{FCC4DCD1-278F-379E-87CC-B974A6ACF0FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Execution">
+      <UniqueIdentifier>{4234896F-1D79-3A13-8BF7-EBC1B2E29D07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fill">
+      <UniqueIdentifier>{246DE89D-6EA2-3BC5-8091-5960D7D1C84D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fill\Lightning">
+      <UniqueIdentifier>{394D23B2-1ED4-3D24-B097-7AF775F64424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Format">
+      <UniqueIdentifier>{98D71E70-77D8-3EB6-9B83-044B5CB268B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GCode">
+      <UniqueIdentifier>{354B822B-F297-32CC-A99F-44CC9204920F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{3085898B-82E2-3ECF-A19C-DA373FAB10AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{68992DAA-4905-3472-A185-A37B20A3D05F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interlocking">
+      <UniqueIdentifier>{259AD3F9-7F9B-3458-8953-E9CFB4ED3D16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Optimize">
+      <UniqueIdentifier>{216F3E5D-05CC-3CD9-B029-123E3E285D67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{F07F4273-EEE5-3836-9DC0-0F73188F89A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Runtime">
+      <UniqueIdentifier>{0B3CDB12-8F32-393D-B366-CF2D5C2032D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SLA">
+      <UniqueIdentifier>{01B19E60-208C-3BCD-ABA6-B1579BBD8428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape">
+      <UniqueIdentifier>{EF0A9B6B-ECF6-3E9C-9B14-288D25F672B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{04F8C818-681C-3F20-BD3F-14480F026517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support">
+      <UniqueIdentifier>{10F55C79-A5A7-348D-BC82-EFC913BAF293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TextureToColor">
+      <UniqueIdentifier>{513C7115-AF9B-370E-A80E-60CDDE9DE250}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

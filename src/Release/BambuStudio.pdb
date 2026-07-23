@@ -1,0 +1,7 @@
+version desktop-material/cheap-lfs/v1
+release-tag bambu-build-20260723-1105-41718cda
+asset-name BambuStudio.pdb
+size 1836314624
+sha256 a8b37e72bf02efc90e4075a0321b1999dfb6af974407edaccbc1e35e69c3d15f
+part a300f5b541233fd7ef572fc2c71039380efbd6703ae1129f800c981d31074514 1610612736 BambuStudio.pdb.part001
+part dabc5bcdf1eee6c3fe405528182759c80613ca076d5ad2c4fd9f7187c7362e6b 225701888 BambuStudio.pdb.part002

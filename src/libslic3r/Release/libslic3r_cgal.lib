@@ -1,0 +1,5 @@
+version desktop-material/cheap-lfs/v1
+release-tag bambu-build-20260723-1105-41718cda
+asset-name libslic3r_cgal.lib
+size 284664618
+sha256 c1fd0bf8bb43481256166808a0fc4f9e01ad3d5aa187832cad6a8955917086ec

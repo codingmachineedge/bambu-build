@@ -1,0 +1,261 @@
+/*---Material Design 3 color system (light). Dark override is appended by
+   globalapi.js -> css/dark.css when the app is in dark mode.
+   Values mirror ui-md3/design-system/tokens/colors.css. ---*/
+:root {
+  color-scheme: light;
+  --md-surface: #faf8fd;
+  --md-surface-dim: #dad9e0;
+  --md-surface-bright: #faf8fd;
+  --md-sc-lowest: #ffffff;
+  --md-sc-low: #f4f2f9;
+  --md-sc: #eeedf3;
+  --md-sc-high: #e8e7ee;
+  --md-sc-highest: #e2e1e9;
+  --md-on-surface: #1a1b1f;
+  --md-on-surface-variant: #44464e;
+  --md-outline: #75777f;
+  --md-outline-variant: #c5c6d0;
+  --md-inverse-surface: #2f3036;
+  --md-inverse-on: #f1f0f7;
+  --md-inverse-primary: #8bd89b;
+  --md-error: #ba1a1a;
+  --md-error-container: #ffdad6;
+  --md-on-error: #ffffff;
+  --md-on-error-container: #410002;
+  --md-scrim: rgba(0, 0, 0, 0.32);
+  --md-shadow: rgba(0, 0, 0, 0.16);
+  --md-primary: #146c2e;
+  --md-on-primary: #ffffff;
+  --md-primary-container: #a6f4b8;
+  --md-on-primary-container: #00210c;
+  --md-accent: #146c2e;
+  --md-secondary-container: #d7e8d9;
+  --md-on-secondary-container: #0e1f13;
+}
+
+/*---MD3 type scale, density metrics, radii & elevation. Mirrors
+   ui-md3/design-system/tokens/{typography,density}.css. Kept inline (no Google
+   Fonts @import) because the webview is offline; system Roboto is the fallback.
+   Dark theming stays app-driven via css/dark.css injection (globalapi.js) —
+   the kit selects themes explicitly (data-theme), not via prefers-color-scheme,
+   so no OS media query is added here (it would desync from the app's mode). ---*/
+:root {
+  --md-font: 'Roboto', system-ui, 'Segoe UI', Oxygen, Ubuntu, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --md-font-mono: 'Roboto Mono', ui-monospace, 'Cascadia Code', Consolas, monospace;
+  --md-type-page-title: 20px;
+  --md-type-dialog-title: 18px;
+  --md-type-section-title: 16px;
+  --md-type-card-title: 15px;
+  --md-type-body: 14px;
+  --md-type-body-s: 13.5px;
+  --md-type-body-xs: 12.5px;
+  --md-type-caption: 11.5px;
+  --md-type-label: 11px;
+  --radius: 16px;
+  --radius-s: 10px;
+  --pad: 16px;
+  --md-elev-1: 0 1px 2px var(--md-shadow);
+  --md-elev-2: 0 2px 6px var(--md-shadow);
+}
+
+*{
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+  font-family: var(--md-font);
+	border-color: var(--md-outline-variant);
+	user-select: none;
+}
+
+html, body {
+	line-height: 20px;
+  font-size: var(--md-type-body);
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	background-color: var(--md-surface);
+	color: var(--md-on-surface);
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  font-size: var(--md-type-body);
+  color: var(--md-on-surface-variant);
+}
+.comment {
+  font-size: var(--md-type-body-xs);
+  color: var(--md-on-surface-variant);
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.topTool {
+  display: flex;
+  justify-content: right;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--md-sc-lowest);
+  padding: 0px 18px;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 1000;
+  box-shadow: var(--md-elev-2);
+}
+
+.returnBtn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: var(--md-type-dialog-title);
+  font-weight: 700;
+  cursor: pointer;
+}
+.returnBtn label {
+  cursor: pointer;
+}
+/* Kit filled Button (md size): height 42, radius h/2, pad 0 18, 13.5/600. */
+.saveBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--md-primary);
+  padding: 0 18px;
+  box-sizing: border-box;
+  height: 42px;
+  border-radius: 21px;
+  font-size: var(--md-type-body-s);
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--md-on-primary);
+  transition: filter .15s;
+}
+.saveBtn:hover {
+  filter: brightness(1.06);
+}
+
+/* Responsive content column: was a fixed 1100px-min container + 890px column.
+   Now a fluid max-width column so the page reflows on narrow webviews. The
+   scroll-anchor rail (.Navigation) + injected content ids are unchanged. */
+.container {
+  width: 100%;
+  max-width: 1160px;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  margin: 70px auto 0;
+  box-sizing: border-box;
+}
+.Navigation{
+  align-self: start;
+  height: fit-content;
+  position: sticky;
+  top: 70px;
+}
+.content{
+  width: 100%;
+  max-width: 890px;
+  min-width: 0;
+  padding: 28px 30px;
+  box-sizing: border-box;
+  min-height: 1000px;
+}
+
+#info, #steps, #bom, #acc, #profile {
+  scroll-margin-top: 60px;
+}
+#demoGallery {
+
+}
+
+hr {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  border: none;
+  border-top: 1px solid var(--md-outline-variant)
+}
+
+#projectName {
+  font-size: var(--md-type-dialog-title);
+  font-weight: 700;
+  margin-top: 14px;
+}
+.link {
+  cursor: pointer;
+  text-decoration: underline;
+  color: var(--md-primary);
+}
+#projectAuthor {
+  margin-top: 8px;
+  font-size: var(--md-type-body);
+  color: var(--md-on-surface-variant);
+}
+#projectDescription {
+  margin-top: 8px;
+}
+#projectDescription img {
+  max-width: 80%;
+}
+.subTitle {
+  font-size: var(--md-type-section-title);
+  font-weight: 700;
+}
+
+.accessory-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+/* Kit interactive Card anatomy (Card.jsx): sc-low fill, outline-variant
+   border → primary on hover, --radius-s, body typography. */
+.attachment {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: var(--radius-s);
+  border: 1px solid var(--md-outline-variant);
+  background: var(--md-sc-low);
+  width: 230px;
+  max-width: 100%;
+  font-size: var(--md-type-body-s);
+  color: var(--md-on-surface);
+  padding: 6px 16px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-all;
+  cursor: pointer;
+  transition: border-color .15s;
+}
+.attachment:hover {
+  border-color: var(--md-primary);
+}
+.attachment img {
+  width: 28px;
+  height: 28px;
+  margin-right: 12px;
+}
+.attachment .attachment-thumb {
+  width: 48px;
+  height: 48px;
+  margin-right: 12px;
+  border-radius: 4px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.profileName {
+  font-size: var(--md-type-section-title);
+  font-weight: 700;
+}
+#profileAuthor {
+  margin-top: 8px;
+  font-size: var(--md-type-body);
+  color: var(--md-on-surface-variant);
+}
+#profileDescript {
+  margin-top: 8px;
+}

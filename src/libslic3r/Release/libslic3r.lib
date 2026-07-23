@@ -1,0 +1,7 @@
+version desktop-material/cheap-lfs/v1
+release-tag bambu-build-20260723-1105-41718cda
+asset-name libslic3r.lib
+size 1742356008
+sha256 bef63ad92006107944086ec1c041c1b56671d71175f6850200275906babbd9dc
+part da2701f595e75ad99b3e38d8c757c1363875cfec571b2973e377113859104ac5 1610612736 libslic3r.lib.part001
+part b7307d020c215dfa6134e19a5f6d1bae6e1a9ca191a9796c770344aefaed740c 131743272 libslic3r.lib.part002

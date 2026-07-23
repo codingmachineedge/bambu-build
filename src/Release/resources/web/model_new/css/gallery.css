@@ -1,0 +1,76 @@
+/* 简洁图片画廊样式 */
+.bs-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 16px;
+  /* Reflow (main image over thumbs) when the responsive column is narrow. */
+  flex-wrap: wrap;
+}
+
+.bs-gallery-main {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 0 0 560px;
+          flex: 0 0 560px;
+  width: 560px;
+  min-width: 0;
+  max-width: 100%;
+  border-radius: var(--radius, 16px);
+  overflow: hidden;
+  background: var(--md-sc);
+}
+
+.bs-gallery-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+/* Counter badge sits on top of the (theme-independent) gallery image, so it
+   keeps a fixed dark scrim + light text for legibility in both themes. */
+.bs-gallery-counter {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  background: rgba(0,0,0,.45);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: var(--radius-s, 10px);
+  font-weight: 600;
+  font-size: var(--md-type-body, 14px);
+}
+
+.bs-gallery-thumbs {
+  width: 180px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.bs-gallery-thumb {
+  border-radius: var(--radius-s, 10px);
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.bs-gallery-thumb img {
+  width: 100%;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  filter: grayscale(10%);
+}
+
+.bs-gallery-thumb.active {
+  border: 2px solid var(--md-primary); /* 绿色高亮 */
+}
+
+.bs-gallery-thumb:last-child { margin-bottom: 0; }

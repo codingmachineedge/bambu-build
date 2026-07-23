@@ -1,0 +1,464 @@
+*
+{
+	padding:0px;
+	border: 0px;
+	margin: 0px;
+	font-family: "Roboto", system-ui, "Segoe UI", Oxygen, Ubuntu, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	border-color: var(--md-outline-variant);
+	user-select: none;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+	line-height: 20px;
+	font-size: 16px;
+	background-color: var(--md-sc-low);
+	color: var(--md-on-surface);
+}
+
+.ZScrol::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 12px;     /*高宽分别对应横竖滚动条的尺寸*/
+	height: 10px;
+	padding: 2px;
+	width: 10px;
+}
+
+.ZScrol::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+	border-radius: 8px;
+	border: 2px solid transparent;
+	background-color: var(--md-outline-variant);
+	background-clip: content-box;
+}
+
+.ZScrol::-webkit-scrollbar-track {/*滚动条里面轨道*/
+	border-radius: 10px;
+	background: transparent;
+}
+
+
+.RedFont
+{
+	font-size:12px;
+	color: var(--md-error);
+}
+
+.LinkBtn
+{
+	font-size:12px;
+	color: var(--md-primary);
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.LinkBtn:hover
+{
+	text-decoration:underline;
+}
+
+/*------------------*/
+#DebugText
+{
+	height:30px;
+}
+
+/*------------------*/
+body
+{
+	display:flex;
+	justify-content: flex-start;
+}
+
+#LeftBoard
+{
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: var(--md-outline-variant);
+	width: calc(100% - 1px);
+	height: 100%;
+	background-color: var(--md-sc-low);
+}
+
+#LoginArea
+{
+	height: 90px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	position: relative;
+	width:100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: var(--md-outline-variant);
+}
+
+#LoginArea.ServerConnectFailVisible
+{
+	box-sizing: border-box;
+	justify-content: flex-start;
+}
+
+
+#Login1
+{
+	height:36px;
+	line-height: 36px;
+	display: flex;
+	justify-content: center;
+	user-select: none;
+	cursor:pointer;
+	border-radius: 999px;
+	padding: 0 12px;
+}
+
+#LoginBtn
+{
+	display: flex;
+	align-items: center;
+	width: 120px;
+	word-wrap: break-word;
+	line-height: 1.2;
+	flex-wrap: wrap;
+	white-space: normal;
+}
+
+#Login1:hover #LoginBtn
+{
+	color: var(--md-primary);
+}
+
+
+#NoPluginTip
+{
+	margin-top: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 12px;
+	border: 1px solid var(--md-error);
+	background: var(--md-error-container);
+}
+
+#NoPluginTip .RedFont
+{
+	color: var(--md-on-error-container);
+}
+
+#ServerConnectFailTip
+{
+	margin-bottom: 5px;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 35px;
+	padding: 4px 8px;
+	border: 1px solid var(--md-error);
+	border-radius: 12px;
+	background: var(--md-error-container);
+}
+
+#ServerConnectFailText
+{
+	font-size: 12px;
+	line-height: 14px;
+	color: var(--md-on-error-container);
+}
+
+
+#DownloadBtn
+{
+	color:var(--md-primary);
+}
+
+
+#Icon1
+{
+	margin-right: 10px;	
+}
+
+#BBLIcon
+{
+	height:36px;
+}
+
+#Login2
+{
+	display: none;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	width: 95%;
+	cursor: pointer;
+}
+
+#UserAvatarIcon
+{
+	height: 36px;
+	width: 36px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+#UserName
+{
+	white-space: normal;
+	text-overflow: ellipsis;
+	text-align: left;
+	overflow: hidden; 
+	margin-left: 12px;
+	word-wrap: break-word;
+  line-height: 1.2;
+}
+
+.PullBtn
+{
+	margin-left: 10px;
+	width: 16px;
+	height: 16px;
+	background-image: url('../img/left_pull_btn.svg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#LogoutBtn
+{
+	font-size: 14px;
+	height: 28px;
+	line-height: 28px;
+	color: var(--md-primary);
+	border: 1px solid var(--md-outline);
+	border-radius: 999px;
+	cursor: pointer;
+	margin-top: 5px;
+	padding: 0px 12px;
+}
+
+#LogoutBtn:hover
+{
+	background: var(--md-primary-container);
+	color: var(--md-on-primary-container);
+	border-color: var(--md-primary);
+}
+
+
+/*------------------*/
+#BtnArea
+{
+	height: calc(100% - 91px);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.BtnItem
+{
+	padding-left: 16px;
+	padding-right: 20px;
+	height:46px;
+	line-height: 46px;
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin: 2px 8px;
+	border-radius: 23px;
+	box-sizing: border-box;
+	color: var(--md-on-surface-variant);
+	transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.TopDivider
+{
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: var(--md-outline-variant);
+}
+
+.BtnItem[menu="online"]
+{
+	display: none;
+}
+
+.BtnItem[menu="makerlab"]
+{
+	display: none;
+}
+
+.BtnItem[menu="printhistory"]
+{
+	display: none;
+}
+
+.BtnItem:hover
+{
+	background-color: var(--md-secondary-container);
+	color: var(--md-on-secondary-container);
+}
+
+.BtnItemSelected
+{
+	background-color: var(--md-primary-container);
+	color: var(--md-on-primary-container);
+	font-weight: 600;
+}
+
+.BtnIcon
+{
+	margin-right:6px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.BtnIcon-Right
+{
+	display: block;
+	margin-left: auto;
+}
+
+.BtnText
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.LeftIcon
+{
+	width: 24px;
+	height: 24px;
+}
+
+.RightIcon
+{
+	width: 15px;
+	height: 15px;
+}
+
+.BtnNewIcon
+{
+	height: 12px;
+	line-height: 12px;
+	font-size: 10px;
+	background-color: var(--md-primary);
+	color: var(--md-on-primary);
+	padding: 2px 7px;
+	position: absolute;
+	top: calc(50% - 8px);
+	right: 12px;
+	display: none;
+	border-radius: 999px;
+}
+
+/*dropdown*/
+#DropdownWrapper {
+	visibility: hidden;
+	width: 95%;
+	border-radius: 16px;
+	overflow: hidden;
+	box-shadow: 0 4px 12px var(--md-shadow);
+	border: 1px solid var(--md-outline-variant);
+	position: absolute;
+	z-index: 1;
+	top: 70%;
+	left: 3px;
+}
+.dropdown-header {
+	display: flex;
+	align-items: center;
+	padding: 12px;
+}
+.avatar {
+	width: 38px;
+	height: 38px;
+	min-width: 38px;
+	margin-right: 16px;
+	background-image: url('../img/left_home_account.svg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+}
+.user-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.UserName {
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+}
+.UserEmail {
+	font-size: 10px;
+	white-space: normal;
+	word-break: break-word;
+	overflow: hidden;
+	max-width: 92%;
+	text-align: left;
+	line-height: 1.4;
+}
+.DropdownFooter {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	transition: background 0.2s;
+	color: var(--md-on-surface-variant);
+}
+
+.LogoutIcon {
+	width: 15px;
+	height: 15px;
+	background-image: url('../img/left_logout_icon.svg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin-right: 8px;
+}
+.LogoutBtn
+{
+	font-size: 13px;
+}
+
+
+/*-----Hide Button-----*/
+#HideBtn
+{
+	position: absolute;
+	height: 60px;
+	width: 12px;
+	right: 0px;
+	top: calc(50% - 30px);
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../img/arrow_dark_left.svg');
+	border-left: 1px solid var(--md-outline-variant);
+	border-top: 1px solid var(--md-outline-variant);
+	border-bottom: 1px solid var(--md-outline-variant);
+	border-radius: 12px 0px 0px 12px;
+	background-color: var(--md-sc);
+	z-index: 99;
+}
+
+#HideBtn:hover
+{
+	background-color: var(--md-sc-highest);
+}
+

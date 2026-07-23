@@ -1,0 +1,522 @@
+name: Verify Bambu build snapshot
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify-and-release:
+    name: Verify pointers and publish manifest snapshot
+    if: github.event_name == 'workflow_dispatch' || github.ref_type == 'branch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out only tracked verification metadata
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            .github
+          sparse-checkout-cone-mode: true
+          persist-credentials: false
+
+      - name: Verify Git tree, pointers, and Release assets; publish snapshot
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          API_URL: ${{ github.api_url }}
+          REPOSITORY: ${{ github.repository }}
+          HEAD_SHA: ${{ github.sha }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          node <<'NODE'
+          'use strict'
+
+          const { createHash } = require('node:crypto')
+          const { readFileSync } = require('node:fs')
+          const https = require('node:https')
+
+          const manifestPath = '.github/bambu-build-manifest.json'
+          const manifestBytes = readFileSync(manifestPath)
+          const manifest = JSON.parse(manifestBytes.toString('utf8'))
+          const token = process.env.GITHUB_TOKEN
+          const repository = process.env.REPOSITORY
+          const headSha = process.env.HEAD_SHA
+          const runId = process.env.RUN_ID
+          const apiBase = new URL(process.env.API_URL)
+          const sha256 = /^[a-f0-9]{64}$/
+          const positiveIntegerText = /^(?:0|[1-9][0-9]*)$/
+          const maximumPointerBytes = 512 * 1024
+          const maximumLegacyPartBytes = 2 * 1024 * 1024 * 1024
+          const maximumTreeEntries = 20_000
+          const maximumAssetPages = 10
+          const maximumReleasePages = 10
+          const assetsPerPage = 100
+
+          function assert(condition, message) {
+            if (!condition) throw new Error(message)
+          }
+
+          function assertExactKeys(value, keys, label) {
+            assert(value !== null && typeof value === 'object' && !Array.isArray(value), `${label} must be an object.`)
+            const actual = Object.keys(value).sort()
+            const expected = [...keys].sort()
+            assert(JSON.stringify(actual) === JSON.stringify(expected), `${label} has unexpected or missing fields.`)
+          }
+
+          function safeInteger(value, label, minimum = 0) {
+            assert(Number.isSafeInteger(value) && value >= minimum, `${label} must be a safe integer of at least ${minimum}.`)
+          }
+
+          function request(method, url, options = {}) {
+            const {
+              body,
+              contentType = 'application/vnd.github+json',
+              maximumBytes = 2 * 1024 * 1024,
+              expectedStatuses = [200],
+            } = options
+            const target = url instanceof URL ? url : new URL(url, apiBase)
+            assert(target.protocol === 'https:', 'GitHub API requests must use HTTPS.')
+            const headers = {
+              Accept: 'application/vnd.github+json',
+              Authorization: `Bearer ${token}`,
+              'User-Agent': 'bambu-build-verifier',
+              'X-GitHub-Api-Version': '2022-11-28',
+            }
+            if (body !== undefined) {
+              headers['Content-Type'] = contentType
+              headers['Content-Length'] = Buffer.byteLength(body)
+            }
+            return new Promise((resolve, reject) => {
+              const req = https.request(target, { method, headers }, response => {
+                const chunks = []
+                let length = 0
+                response.on('data', chunk => {
+                  length += chunk.length
+                  if (length > maximumBytes) {
+                    req.destroy(new Error(`GitHub response exceeded ${maximumBytes} bytes.`))
+                    return
+                  }
+                  chunks.push(chunk)
+                })
+                response.on('end', () => {
+                  const responseBody = Buffer.concat(chunks)
+                  if (!expectedStatuses.includes(response.statusCode)) {
+                    reject(new Error(`GitHub API ${method} ${target.pathname} returned ${response.statusCode}: ${responseBody.toString('utf8', 0, 500)}`))
+                    return
+                  }
+                  resolve({ status: response.statusCode, headers: response.headers, body: responseBody })
+                })
+              })
+              req.on('error', reject)
+              req.setTimeout(30_000, () => req.destroy(new Error('GitHub API request timed out.')))
+              if (body !== undefined) req.write(body)
+              req.end()
+            })
+          }
+
+          async function jsonRequest(method, pathOrUrl, options = {}) {
+            const body = options.json === undefined ? options.body : JSON.stringify(options.json)
+            const response = await request(method, pathOrUrl, { ...options, body })
+            if (response.body.length === 0) return null
+            return JSON.parse(response.body.toString('utf8'))
+          }
+
+          function parsePointer(bytes, label) {
+            assert(bytes.length <= maximumPointerBytes, `${label} exceeds the pointer byte limit.`)
+            let text
+            try {
+              text = new TextDecoder('utf-8', { fatal: true }).decode(bytes)
+            } catch {
+              throw new Error(`${label} is not valid UTF-8.`)
+            }
+            assert(!text.includes('\0'), `${label} contains a NUL byte.`)
+            const lines = text.replace(/^\uFEFF/, '').trim().split(/\r?\n/)
+            const heads = new Map()
+            const partLines = []
+            for (const line of lines) {
+              if (line.startsWith('part ')) {
+                partLines.push({ deflated: false, text: line.slice(5) })
+              } else if (line.startsWith('part-deflate ')) {
+                partLines.push({ deflated: true, text: line.slice(13) })
+              } else {
+                const separator = line.indexOf(' ')
+                assert(separator > 0, `${label} contains a malformed head line.`)
+                const key = line.slice(0, separator)
+                assert(!heads.has(key), `${label} repeats ${key}.`)
+                heads.set(key, line.slice(separator + 1))
+              }
+            }
+            assert(heads.size === 5, `${label} must contain exactly five head fields.`)
+            assert(heads.get('version') === 'desktop-material/cheap-lfs/v1', `${label} has the wrong pointer version.`)
+            const releaseTag = heads.get('release-tag')
+            const assetName = heads.get('asset-name')
+            const sizeText = heads.get('size')
+            const wholeSha = heads.get('sha256')
+            assert(typeof releaseTag === 'string' && releaseTag.length > 0 && !/\s/.test(releaseTag), `${label} has an invalid release tag.`)
+            assert(typeof assetName === 'string' && assetName.length > 0 && assetName.length <= 255 && !/[\u0000-\u001f]/.test(assetName), `${label} has an invalid asset name.`)
+            assert(typeof sizeText === 'string' && positiveIntegerText.test(sizeText), `${label} has an invalid logical size.`)
+            const sizeInBytes = Number(sizeText)
+            safeInteger(sizeInBytes, `${label} logical size`)
+            assert(typeof wholeSha === 'string' && sha256.test(wholeSha), `${label} has an invalid whole-file SHA-256.`)
+            const parts = []
+            let logicalTotal = 0
+            for (const entry of partLines) {
+              const match = (entry.deflated
+                ? /^([a-f0-9]{64}) (0|[1-9][0-9]*) (0|[1-9][0-9]*) (.+)$/
+                : /^([a-f0-9]{64}) (0|[1-9][0-9]*) (.+)$/).exec(entry.text)
+              assert(match !== null, `${label} contains a malformed ${entry.deflated ? 'part-deflate' : 'part'} line.`)
+              const name = match[entry.deflated ? 4 : 3]
+              assert(name.length > 0 && name.length <= 255 && !/[\u0000-\u001f]/.test(name), `${label} has an invalid part name.`)
+              const originalSizeInBytes = Number(match[2])
+              safeInteger(originalSizeInBytes, `${label} part size`)
+              assert(originalSizeInBytes <= maximumLegacyPartBytes, `${label} part exceeds the legacy limit.`)
+              let storedSizeInBytes
+              if (entry.deflated) {
+                storedSizeInBytes = Number(match[3])
+                safeInteger(storedSizeInBytes, `${label} stored part size`, 1)
+                assert(storedSizeInBytes <= maximumLegacyPartBytes && storedSizeInBytes < originalSizeInBytes, `${label} has a non-beneficial compressed part.`)
+              }
+              logicalTotal += originalSizeInBytes
+              safeInteger(logicalTotal, `${label} cumulative part size`)
+              parts.push({
+                name,
+                sha256: match[1],
+                originalSizeInBytes,
+                storedSizeInBytes,
+              })
+            }
+            if (parts.length > 0) assert(logicalTotal === sizeInBytes, `${label} parts do not cover the logical file size.`)
+            return { releaseTag, assetName, sizeInBytes, sha256: wholeSha, parts }
+          }
+
+          async function getBlobBytes(oid, label) {
+            assert(/^[a-f0-9]{40,64}$/.test(oid), `${label} has an invalid tree OID.`)
+            const blob = await jsonRequest('GET', `/repos/${repository}/git/blobs/${oid}`, { maximumBytes: 1024 * 1024 })
+            assert(blob.sha === oid && blob.encoding === 'base64' && typeof blob.content === 'string', `${label} returned an invalid Git blob response.`)
+            const compact = blob.content.replace(/\s/g, '')
+            assert(/^[A-Za-z0-9+/]*={0,2}$/.test(compact), `${label} returned malformed base64.`)
+            const bytes = Buffer.from(compact, 'base64')
+            safeInteger(blob.size, `${label} Git blob size`)
+            assert(bytes.length === blob.size && bytes.length <= maximumPointerBytes, `${label} Git blob size is inconsistent or excessive.`)
+            return bytes
+          }
+
+          async function listReleaseAssets(releaseId) {
+            const assets = []
+            for (let page = 1; page <= maximumAssetPages; page++) {
+              const batch = await jsonRequest('GET', `/repos/${repository}/releases/${releaseId}/assets?per_page=${assetsPerPage}&page=${page}`, { maximumBytes: 4 * 1024 * 1024 })
+              assert(Array.isArray(batch), 'Release asset inventory is not an array.')
+              assert(batch.length <= assetsPerPage, 'Release asset page exceeded its bound.')
+              assets.push(...batch)
+              if (batch.length < assetsPerPage) return assets
+            }
+            throw new Error(`Release asset inventory exceeded ${maximumAssetPages * assetsPerPage} entries.`)
+          }
+
+          function parseJsonResponse(response, label) {
+            try {
+              return JSON.parse(response.body.toString('utf8'))
+            } catch {
+              throw new Error(`${label} returned malformed JSON.`)
+            }
+          }
+
+          async function getTagReference(tagName) {
+            const response = await request('GET', `/repos/${repository}/git/ref/tags/${encodeURIComponent(tagName)}`, {
+              expectedStatuses: [200, 404],
+              maximumBytes: 2 * 1024 * 1024,
+            })
+            return response.status === 404 ? null : parseJsonResponse(response, 'Tag reference lookup')
+          }
+
+          async function peelTagReference(reference, tagName) {
+            assert(reference && reference.ref === `refs/tags/${tagName}` && reference.object, 'Tag reference metadata is inconsistent.')
+            let object = reference.object
+            const visited = new Set()
+            for (let depth = 0; depth < 5; depth++) {
+              assert(object && /^(?:commit|tag)$/.test(object.type) && /^[a-f0-9]{40,64}$/.test(object.sha), 'Tag reference points to an unsupported object.')
+              assert(!visited.has(object.sha), 'Tag reference contains a peel cycle.')
+              visited.add(object.sha)
+              if (object.type === 'commit') return object.sha
+              const tag = await jsonRequest('GET', `/repos/${repository}/git/tags/${object.sha}`, { maximumBytes: 2 * 1024 * 1024 })
+              assert(tag.sha === object.sha && tag.object, 'Annotated tag metadata is inconsistent.')
+              object = tag.object
+            }
+            throw new Error('Tag reference exceeded the bounded peel depth.')
+          }
+
+          async function ensureTagReference(tagName) {
+            let reference = await getTagReference(tagName)
+            let createdByThisExecution = false
+            if (reference === null) {
+              const response = await request('POST', `/repos/${repository}/git/refs`, {
+                body: JSON.stringify({ ref: `refs/tags/${tagName}`, sha: headSha }),
+                expectedStatuses: [201, 422],
+                maximumBytes: 2 * 1024 * 1024,
+              })
+              if (response.status === 201) {
+                reference = parseJsonResponse(response, 'Created tag reference')
+                createdByThisExecution = true
+              } else {
+                reference = await getTagReference(tagName)
+                assert(reference !== null, 'Deterministic tag creation failed without a reusable reference.')
+              }
+            }
+            const peeledCommit = await peelTagReference(reference, tagName)
+            assert(peeledCommit === headSha, `Deterministic tag ${tagName} collides with another commit.`)
+            return { createdByThisExecution }
+          }
+
+          async function findReleaseByTag(tagName) {
+            const direct = await request('GET', `/repos/${repository}/releases/tags/${encodeURIComponent(tagName)}`, {
+              expectedStatuses: [200, 404],
+              maximumBytes: 2 * 1024 * 1024,
+            })
+            if (direct.status === 200) return parseJsonResponse(direct, 'Snapshot Release lookup')
+            for (let page = 1; page <= maximumReleasePages; page++) {
+              const batch = await jsonRequest('GET', `/repos/${repository}/releases?per_page=${assetsPerPage}&page=${page}`, { maximumBytes: 8 * 1024 * 1024 })
+              assert(Array.isArray(batch) && batch.length <= assetsPerPage, 'Release inventory page exceeded its bound.')
+              const matches = batch.filter(release => release.tag_name === tagName)
+              assert(matches.length <= 1, `Multiple Releases claim deterministic tag ${tagName}.`)
+              if (matches.length === 1) return matches[0]
+              if (batch.length < assetsPerPage) return null
+            }
+            throw new Error(`Release inventory exceeded ${maximumReleasePages * assetsPerPage} entries.`)
+          }
+
+          async function main() {
+            assert(token && token.length > 0, 'The workflow token is unavailable.')
+            assert(/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(repository), 'Repository identity is invalid.')
+            assert(/^[a-f0-9]{40,64}$/.test(headSha), 'HEAD SHA is invalid.')
+            assert(/^\d+$/.test(runId), 'Run identity is invalid.')
+            assertExactKeys(manifest, [
+              'schemaVersion', 'repository', 'releaseTag', 'expectedPayloadFileCount',
+              'expectedTotalTreeFileCount', 'sourceBytes', 'cheapLfsPointerCount',
+              'cheapLfsLogicalBytes', 'pointers',
+            ], 'Manifest')
+            assert(manifest.schemaVersion === 1, 'Unsupported manifest schema.')
+            assert(manifest.repository === repository, 'Manifest repository does not match this run.')
+            assert(manifest.releaseTag === 'bambu-build-20260723-1105-41718cda', 'Manifest release tag changed unexpectedly.')
+            assert(manifest.expectedPayloadFileCount === 8305, 'Manifest payload count changed unexpectedly.')
+            assert(manifest.expectedTotalTreeFileCount === 8309, 'Manifest tree count changed unexpectedly.')
+            assert(manifest.sourceBytes === 14809588162, 'Manifest source byte count changed unexpectedly.')
+            assert(manifest.cheapLfsPointerCount === 10, 'Manifest pointer count changed unexpectedly.')
+            assert(manifest.cheapLfsLogicalBytes === 9428683391, 'Manifest logical byte count changed unexpectedly.')
+            assert(Array.isArray(manifest.pointers) && manifest.pointers.length === manifest.cheapLfsPointerCount, 'Manifest pointer inventory is incomplete.')
+
+            const pointerPaths = new Set()
+            const rawNames = new Set()
+            let logicalBytes = 0
+            for (const [index, spec] of manifest.pointers.entries()) {
+              assertExactKeys(spec, ['path', 'originalAssetName', 'logicalSizeInBytes', 'sha256', 'originalRawAssets'], `Pointer manifest entry ${index}`)
+              assert(typeof spec.path === 'string' && /^(?!\/)(?!.*(?:^|\/)\.git(?:\/|$))(?!.*(?:^|\/)\.\.(?:\/|$))[\x20-\x7e]+$/.test(spec.path), `Pointer manifest entry ${index} has an unsafe path.`)
+              assert(!pointerPaths.has(spec.path), `Manifest repeats ${spec.path}.`)
+              pointerPaths.add(spec.path)
+              assert(typeof spec.originalAssetName === 'string' && spec.originalAssetName.length > 0 && spec.originalAssetName.length <= 255, `${spec.path} has an invalid original asset name.`)
+              safeInteger(spec.logicalSizeInBytes, `${spec.path} logical size`, 1)
+              assert(sha256.test(spec.sha256), `${spec.path} has an invalid logical SHA-256.`)
+              assert(Array.isArray(spec.originalRawAssets) && spec.originalRawAssets.length > 0, `${spec.path} has no raw fallback assets.`)
+              let rawTotal = 0
+              for (const [rawIndex, raw] of spec.originalRawAssets.entries()) {
+                assertExactKeys(raw, ['name', 'sizeInBytes', 'sha256'], `${spec.path} raw asset ${rawIndex}`)
+                assert(typeof raw.name === 'string' && raw.name.length > 0 && raw.name.length <= 255 && !/[\u0000-\u001f]/.test(raw.name), `${spec.path} has an invalid raw asset name.`)
+                assert(!rawNames.has(raw.name), `Manifest repeats raw asset ${raw.name}.`)
+                rawNames.add(raw.name)
+                safeInteger(raw.sizeInBytes, `${spec.path} raw asset size`, 1)
+                assert(sha256.test(raw.sha256), `${spec.path} raw asset has an invalid SHA-256.`)
+                rawTotal += raw.sizeInBytes
+                safeInteger(rawTotal, `${spec.path} raw fallback total`)
+              }
+              assert(rawTotal === spec.logicalSizeInBytes, `${spec.path} raw assets do not cover its logical size.`)
+              if (spec.originalRawAssets.length === 1) {
+                assert(spec.originalRawAssets[0].name === spec.originalAssetName, `${spec.path} single raw asset name is inconsistent.`)
+                assert(spec.originalRawAssets[0].sha256 === spec.sha256, `${spec.path} single raw asset digest is inconsistent.`)
+              }
+              logicalBytes += spec.logicalSizeInBytes
+              safeInteger(logicalBytes, 'Manifest logical byte total')
+            }
+            assert(rawNames.size === 13, `Expected exactly 13 unique raw fallback assets; found ${rawNames.size}.`)
+            assert(logicalBytes === manifest.cheapLfsLogicalBytes, 'Manifest logical byte total is inconsistent.')
+
+            const commit = await jsonRequest('GET', `/repos/${repository}/git/commits/${headSha}`, { maximumBytes: 2 * 1024 * 1024 })
+            assert(commit.sha === headSha && commit.tree && /^[a-f0-9]{40,64}$/.test(commit.tree.sha), 'HEAD commit metadata is inconsistent.')
+            const tree = await jsonRequest('GET', `/repos/${repository}/git/trees/${commit.tree.sha}?recursive=1`, { maximumBytes: 16 * 1024 * 1024 })
+            assert(tree.sha === commit.tree.sha && tree.truncated === false && Array.isArray(tree.tree), 'HEAD recursive tree is incomplete.')
+            assert(tree.tree.length <= maximumTreeEntries, 'HEAD tree exceeded the validation bound.')
+            const blobs = tree.tree.filter(entry => entry.type === 'blob')
+            assert(blobs.length === manifest.expectedTotalTreeFileCount, `Expected ${manifest.expectedTotalTreeFileCount} tracked files; found ${blobs.length}.`)
+            const payloadFiles = blobs.filter(entry => entry.path !== 'README.md' && !entry.path.startsWith('.github/'))
+            assert(payloadFiles.length === manifest.expectedPayloadFileCount, `Expected ${manifest.expectedPayloadFileCount} payload files; found ${payloadFiles.length}.`)
+            const byPath = new Map(blobs.map(entry => [entry.path, entry]))
+            assert(byPath.has('README.md') && byPath.has(manifestPath), 'Required tracked metadata is missing.')
+            const manifestTreeEntry = byPath.get(manifestPath)
+            const manifestTreeBytes = await getBlobBytes(manifestTreeEntry.sha, manifestPath)
+            assert(manifestTreeBytes.equals(manifestBytes), 'Checked-out manifest bytes do not match the exact HEAD tree blob.')
+
+            const parsedPointers = []
+            for (const spec of manifest.pointers) {
+              const entry = byPath.get(spec.path)
+              assert(entry && entry.type === 'blob', `${spec.path} is missing from HEAD.`)
+              const pointer = parsePointer(await getBlobBytes(entry.sha, spec.path), spec.path)
+              assert(pointer.releaseTag === manifest.releaseTag, `${spec.path} points to the wrong release.`)
+              assert(pointer.sizeInBytes === spec.logicalSizeInBytes && pointer.sha256 === spec.sha256, `${spec.path} logical metadata changed.`)
+              const raw = spec.originalRawAssets
+              if (pointer.parts.length === 0) {
+                assert(raw.length === 1 && pointer.assetName === spec.originalAssetName, `${spec.path} raw single-asset pointer is inconsistent.`)
+              } else {
+                assert(pointer.parts.length === raw.length, `${spec.path} part count changed.`)
+                assert(raw.length === 1 ? pointer.assetName === pointer.parts[0].name : pointer.assetName === spec.originalAssetName, `${spec.path} head asset name is inconsistent.`)
+                for (let index = 0; index < pointer.parts.length; index++) {
+                  const part = pointer.parts[index]
+                  const fallback = raw[index]
+                  assert(part.originalSizeInBytes === fallback.sizeInBytes && part.sha256 === fallback.sha256, `${spec.path} part ${index + 1} logical metadata changed.`)
+                  if (part.storedSizeInBytes === undefined) assert(part.name === fallback.name, `${spec.path} raw part ${index + 1} no longer names its fallback.`)
+                }
+              }
+              parsedPointers.push({ spec, pointer })
+            }
+
+            const release = await jsonRequest('GET', `/repos/${repository}/releases/tags/${encodeURIComponent(manifest.releaseTag)}`, { maximumBytes: 2 * 1024 * 1024 })
+            safeInteger(release.id, 'Release ID', 1)
+            assert(release.tag_name === manifest.releaseTag, 'Release lookup returned the wrong tag.')
+            const assets = await listReleaseAssets(release.id)
+            const assetsByName = new Map()
+            for (const asset of assets) {
+              assert(typeof asset.name === 'string' && !assetsByName.has(asset.name), `Release contains a duplicate asset named ${asset.name}.`)
+              safeInteger(asset.size, `${asset.name} asset size`)
+              assert(asset.state === 'uploaded' && typeof asset.digest === 'string' && /^sha256:[a-f0-9]{64}$/.test(asset.digest), `${asset.name} lacks verified GitHub SHA-256 metadata.`)
+              assetsByName.set(asset.name, asset)
+            }
+            for (const { spec, pointer } of parsedPointers) {
+              for (const raw of spec.originalRawAssets) {
+                const asset = assetsByName.get(raw.name)
+                assert(asset && asset.size === raw.sizeInBytes && asset.digest === `sha256:${raw.sha256}`, `${spec.path} raw fallback ${raw.name} failed size/digest validation.`)
+              }
+              const currentParts = pointer.parts.length === 0
+                ? [{ name: pointer.assetName, originalSizeInBytes: pointer.sizeInBytes, sha256: pointer.sha256 }]
+                : pointer.parts
+              for (const part of currentParts) {
+                const asset = assetsByName.get(part.name)
+                const expectedSize = part.storedSizeInBytes === undefined ? part.originalSizeInBytes : part.storedSizeInBytes
+                assert(asset && asset.size === expectedSize, `${spec.path} current asset ${part.name} failed size validation.`)
+                if (part.storedSizeInBytes === undefined) {
+                  assert(asset.digest === `sha256:${part.sha256}`, `${spec.path} current raw asset ${part.name} failed digest validation.`)
+                } else {
+                  assert(/^sha256:[a-f0-9]{64}$/.test(asset.digest), `${spec.path} current compressed asset ${part.name} failed digest validation.`)
+                }
+              }
+            }
+
+            console.log(`Validated ${payloadFiles.length} payload files, ${parsedPointers.length} pointers, and ${assets.length} bounded Release assets.`)
+
+            const tagName = `bambu-build-verify-${runId}`
+            const releaseName = `Verified Bambu build ${runId}`
+            const releaseBody = 'Validated Cheap LFS manifest snapshot. / 已驗證 Cheap LFS manifest 快照。'
+            const manifestDigest = createHash('sha256').update(manifestBytes).digest('hex')
+            let tagCreatedByThisExecution = false
+            let snapshotRelease = null
+            try {
+              const tagState = await ensureTagReference(tagName)
+              tagCreatedByThisExecution = tagState.createdByThisExecution
+
+              snapshotRelease = await findReleaseByTag(tagName)
+              if (snapshotRelease === null) {
+                const response = await request('POST', `/repos/${repository}/releases`, {
+                  body: JSON.stringify({
+                    tag_name: tagName,
+                    target_commitish: headSha,
+                    name: releaseName,
+                    body: releaseBody,
+                    draft: true,
+                    prerelease: false,
+                    make_latest: 'false',
+                  }),
+                  expectedStatuses: [201, 422],
+                  maximumBytes: 2 * 1024 * 1024,
+                })
+                snapshotRelease = response.status === 201
+                  ? parseJsonResponse(response, 'Created snapshot Release')
+                  : await findReleaseByTag(tagName)
+                assert(snapshotRelease !== null, 'Snapshot Release creation failed without an idempotent Release to reuse.')
+              }
+
+              safeInteger(snapshotRelease.id, 'Snapshot Release ID', 1)
+              assert(snapshotRelease.tag_name === tagName, 'Snapshot Release claims the wrong deterministic tag.')
+              assert(snapshotRelease.name === releaseName && snapshotRelease.body === releaseBody, 'Snapshot Release metadata does not belong to this workflow run.')
+              assert(typeof snapshotRelease.draft === 'boolean' && snapshotRelease.prerelease === false, 'Snapshot Release state is inconsistent.')
+              assert(typeof snapshotRelease.upload_url === 'string' && snapshotRelease.upload_url.includes('{?name,label}'), 'Snapshot Release upload endpoint is invalid.')
+
+              let snapshotAssets = await listReleaseAssets(snapshotRelease.id)
+              assert(snapshotAssets.length <= 1, 'Snapshot Release contains unexpected assets.')
+              if (snapshotAssets.length === 1 && snapshotAssets[0].state === 'starter') {
+                const starter = snapshotAssets[0]
+                assert(snapshotRelease.draft === true, 'A published snapshot Release contains an incomplete starter asset.')
+                assert(starter.name === 'bambu-build-manifest.json' && starter.size === 0, 'Snapshot Release contains an unexpected starter asset.')
+                safeInteger(starter.id, 'Starter manifest asset ID', 1)
+                await request('DELETE', `/repos/${repository}/releases/assets/${starter.id}`, {
+                  expectedStatuses: [204],
+                  maximumBytes: 1024,
+                })
+                snapshotAssets = await listReleaseAssets(snapshotRelease.id)
+                assert(snapshotAssets.length === 0, 'Starter manifest asset cleanup did not leave an empty draft Release.')
+              }
+              if (snapshotAssets.length === 0) {
+                assert(snapshotRelease.draft === true, 'A published snapshot Release is missing its manifest asset.')
+                const uploadUrl = new URL(snapshotRelease.upload_url.replace('{?name,label}', ''))
+                uploadUrl.searchParams.set('name', 'bambu-build-manifest.json')
+                const response = await request('POST', uploadUrl, {
+                  body: manifestBytes,
+                  contentType: 'application/json',
+                  expectedStatuses: [201, 422],
+                  maximumBytes: 2 * 1024 * 1024,
+                })
+                if (response.status === 201) {
+                  const uploaded = parseJsonResponse(response, 'Uploaded manifest snapshot')
+                  assert(uploaded.name === 'bambu-build-manifest.json' && uploaded.size === manifestBytes.length, 'Uploaded manifest snapshot metadata is inconsistent.')
+                }
+                snapshotAssets = await listReleaseAssets(snapshotRelease.id)
+              }
+              assert(snapshotAssets.length === 1, 'Snapshot Release must contain exactly one manifest asset.')
+              const snapshotAsset = snapshotAssets[0]
+              assert(snapshotAsset.name === 'bambu-build-manifest.json' && snapshotAsset.state === 'uploaded', 'Snapshot Release contains the wrong artifact.')
+              assert(snapshotAsset.size === manifestBytes.length && snapshotAsset.digest === `sha256:${manifestDigest}`, 'Snapshot manifest artifact failed size/digest validation.')
+
+              if (snapshotRelease.draft) {
+                snapshotRelease = await jsonRequest('PATCH', `/repos/${repository}/releases/${snapshotRelease.id}`, {
+                  json: { draft: false },
+                  maximumBytes: 2 * 1024 * 1024,
+                })
+              }
+              assert(snapshotRelease.draft === false && snapshotRelease.tag_name === tagName && snapshotRelease.id > 0, 'Snapshot Release was not published correctly.')
+
+              const finalReference = await getTagReference(tagName)
+              assert(finalReference !== null && await peelTagReference(finalReference, tagName) === headSha, 'Published snapshot tag no longer resolves to the validated HEAD.')
+              const finalRelease = await findReleaseByTag(tagName)
+              assert(finalRelease !== null && finalRelease.id === snapshotRelease.id && finalRelease.draft === false, 'Exactly one published snapshot Release could not be proven.')
+              console.log(`Proved exactly one verified snapshot Release for workflow run ${runId}: ${tagName}`)
+            } catch (error) {
+              if (tagCreatedByThisExecution && snapshotRelease === null) {
+                try {
+                  const existingRelease = await findReleaseByTag(tagName)
+                  assert(existingRelease === null, 'Owned tag is now attached to a Release and will be retained for an idempotent retry.')
+                  const ownedReference = await getTagReference(tagName)
+                  assert(ownedReference !== null && await peelTagReference(ownedReference, tagName) === headSha, 'Owned tag changed before cleanup and will not be deleted.')
+                  await request('DELETE', `/repos/${repository}/git/refs/tags/${encodeURIComponent(tagName)}`, { expectedStatuses: [204], maximumBytes: 1024 })
+                } catch (cleanupError) {
+                  console.error(`Owned tag cleanup was skipped safely: ${cleanupError.message}`)
+                }
+              }
+              throw error
+            }
+          }
+
+          main().catch(error => {
+            console.error(error.message)
+            process.exitCode = 1
+          })
+          NODE

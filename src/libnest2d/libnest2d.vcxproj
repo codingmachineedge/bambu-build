@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B933F17E-770C-30C7-B765-4B38340D45AC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>libnest2d</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libnest2d\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libnest2d.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libnest2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libnest2d\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libnest2d.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libnest2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libnest2d\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libnest2d.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libnest2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libnest2d\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libnest2d.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libnest2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0;C:\Users\Administrator\Documents\GitHub\BambuStudio\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\platform;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\occt;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\miniz;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\qhull\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\clipper2\Clipper2Lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/src/eigen" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/src/libigl" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/include" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/include/boost-1_84" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/include/libnoise" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/include/OpenEXR" -bigobj -Zm520 /utf-8 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4267;4305;4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SILENCE_CXX17_ADAPTOR_TYPEDEFS_DEPRECATION_WARNING;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;LIBNEST2D_THREADING_tbb;LIBNEST2D_STATIC;LIBNEST2D_OPTIMIZER_nlopt;LIBNEST2D_GEOMETRIES_libslic3r;SLIC3R_GUI;SLIC3R_DESKTOP_INTEGRATION;HAS_WIN10SDK;_USE_MATH_DEFINES;_WIN32;_CRT_SECURE_NO_WARNINGS;BOOST_ALL_NO_LIB;BOOST_USE_WINAPI_VERSION=0x602;BOOST_SYSTEM_USE_UTF8;wxUSE_UNICODE;_UNICODE;UNICODE;WXINTL_NO_GETTEXT_MACRO;wxNO_UNSAFE_WXSTRING_CONV;TBB_USE_DEBUG;USE_TBB;TBB_USE_CAPTURED_EXCEPTION=0;BOOST_FILESYSTEM_NO_LIB;BOOST_FILESYSTEM_STATIC_LINK=1;BOOST_THREAD_NO_LIB;BOOST_THREAD_STATIC_LINK;BOOST_THREAD_USE_LIB;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_STATIC_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_STATIC_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_STATIC_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_STATIC_LINK;BOOST_LOG_NO_LIB;BOOST_LOG_STATIC_LINK;BOOST_LOCALE_NO_LIB;BOOST_LOCALE_STATIC_LINK;BOOST_IOSTREAMS_NO_LIB;BOOST_IOSTREAMS_STATIC_LINK;BOOST_RANDOM_NO_LIB;BOOST_RANDOM_STATIC_LINK;CURL_STATICLIB;OPENVDB_STATICLIB;OPENVDB_OPENEXR_STATICLIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_SILENCE_CXX17_ADAPTOR_TYPEDEFS_DEPRECATION_WARNING;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;LIBNEST2D_THREADING_tbb;LIBNEST2D_STATIC;LIBNEST2D_OPTIMIZER_nlopt;LIBNEST2D_GEOMETRIES_libslic3r;SLIC3R_GUI;SLIC3R_DESKTOP_INTEGRATION;HAS_WIN10SDK;_USE_MATH_DEFINES;_WIN32;_CRT_SECURE_NO_WARNINGS;BOOST_ALL_NO_LIB;BOOST_USE_WINAPI_VERSION=0x602;BOOST_SYSTEM_USE_UTF8;wxUSE_UNICODE;_UNICODE;UNICODE;WXINTL_NO_GETTEXT_MACRO;wxNO_UNSAFE_WXSTRING_CONV;TBB_USE_DEBUG;USE_TBB;TBB_USE_CAPTURED_EXCEPTION=0;BOOST_FILESYSTEM_NO_LIB;BOOST_FILESYSTEM_STATIC_LINK=1;BOOST_THREAD_NO_LIB;BOOST_THREAD_STATIC_LINK;BOOST_THREAD_USE_LIB;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_STATIC_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_STATIC_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_STATIC_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_STATIC_LINK;BOOST_LOG_NO_LIB;BOOST_LOG_STATIC_LINK;BOOST_LOCALE_NO_LIB;BOOST_LOCALE_STATIC_LINK;BOOST_IOSTREAMS_NO_LIB;BOOST_IOSTREAMS_STATIC_LINK;BOOST_RANDOM_NO_LIB;BOOST_RANDOM_STATIC_LINK;CURL_STATICLIB;OPENVDB_STATICLIB;OPENVDB_OPENEXR_STATICLIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0;C:\Users\Administrator\Documents\GitHub\BambuStudio\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\platform;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\occt;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\miniz;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\qhull\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\clipper2\Clipper2Lib\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\eigen;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libigl;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\boost-1_84;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\libnoise;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0;C:\Users\Administrator\Documents\GitHub\BambuStudio\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\platform;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\occt;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\miniz;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\qhull\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\clipper2\Clipper2Lib\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\eigen;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libigl;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\boost-1_84;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\libnoise;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0;C:\Users\Administrator\Documents\GitHub\BambuStudio\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\platform;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\occt;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\miniz;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\qhull\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\clipper2\Clipper2Lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/src/eigen" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/src/libigl" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/include" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/include/boost-1_84" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/include/libnoise" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/include/OpenEXR" -bigobj -Zm520 /utf-8 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4267;4305;4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SILENCE_CXX17_ADAPTOR_TYPEDEFS_DEPRECATION_WARNING;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;LIBNEST2D_THREADING_tbb;LIBNEST2D_STATIC;LIBNEST2D_OPTIMIZER_nlopt;LIBNEST2D_GEOMETRIES_libslic3r;SLIC3R_GUI;SLIC3R_DESKTOP_INTEGRATION;HAS_WIN10SDK;_USE_MATH_DEFINES;_WIN32;_CRT_SECURE_NO_WARNINGS;BOOST_ALL_NO_LIB;BOOST_USE_WINAPI_VERSION=0x602;BOOST_SYSTEM_USE_UTF8;wxUSE_UNICODE;_UNICODE;UNICODE;WXINTL_NO_GETTEXT_MACRO;wxNO_UNSAFE_WXSTRING_CONV;TBB_USE_DEBUG;USE_TBB;TBB_USE_CAPTURED_EXCEPTION=0;BOOST_FILESYSTEM_NO_LIB;BOOST_FILESYSTEM_STATIC_LINK=1;BOOST_THREAD_NO_LIB;BOOST_THREAD_STATIC_LINK;BOOST_THREAD_USE_LIB;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_STATIC_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_STATIC_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_STATIC_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_STATIC_LINK;BOOST_LOG_NO_LIB;BOOST_LOG_STATIC_LINK;BOOST_LOCALE_NO_LIB;BOOST_LOCALE_STATIC_LINK;BOOST_IOSTREAMS_NO_LIB;BOOST_IOSTREAMS_STATIC_LINK;BOOST_RANDOM_NO_LIB;BOOST_RANDOM_STATIC_LINK;CURL_STATICLIB;OPENVDB_STATICLIB;OPENVDB_OPENEXR_STATICLIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SILENCE_CXX17_ADAPTOR_TYPEDEFS_DEPRECATION_WARNING;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;LIBNEST2D_THREADING_tbb;LIBNEST2D_STATIC;LIBNEST2D_OPTIMIZER_nlopt;LIBNEST2D_GEOMETRIES_libslic3r;SLIC3R_GUI;SLIC3R_DESKTOP_INTEGRATION;HAS_WIN10SDK;_USE_MATH_DEFINES;_WIN32;_CRT_SECURE_NO_WARNINGS;BOOST_ALL_NO_LIB;BOOST_USE_WINAPI_VERSION=0x602;BOOST_SYSTEM_USE_UTF8;wxUSE_UNICODE;_UNICODE;UNICODE;WXINTL_NO_GETTEXT_MACRO;wxNO_UNSAFE_WXSTRING_CONV;TBB_USE_DEBUG;USE_TBB;TBB_USE_CAPTURED_EXCEPTION=0;BOOST_FILESYSTEM_NO_LIB;BOOST_FILESYSTEM_STATIC_LINK=1;BOOST_THREAD_NO_LIB;BOOST_THREAD_STATIC_LINK;BOOST_THREAD_USE_LIB;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_STATIC_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_STATIC_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_STATIC_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_STATIC_LINK;BOOST_LOG_NO_LIB;BOOST_LOG_STATIC_LINK;BOOST_LOCALE_NO_LIB;BOOST_LOCALE_STATIC_LINK;BOOST_IOSTREAMS_NO_LIB;BOOST_IOSTREAMS_STATIC_LINK;BOOST_RANDOM_NO_LIB;BOOST_RANDOM_STATIC_LINK;CURL_STATICLIB;OPENVDB_STATICLIB;OPENVDB_OPENEXR_STATICLIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0;C:\Users\Administrator\Documents\GitHub\BambuStudio\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\platform;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\occt;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\miniz;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\qhull\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\clipper2\Clipper2Lib\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\eigen;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libigl;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\boost-1_84;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\libnoise;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0;C:\Users\Administrator\Documents\GitHub\BambuStudio\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\platform;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\occt;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\miniz;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\qhull\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\clipper2\Clipper2Lib\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\eigen;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libigl;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\boost-1_84;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\libnoise;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0;C:\Users\Administrator\Documents\GitHub\BambuStudio\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\platform;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\occt;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\miniz;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\qhull\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\clipper2\Clipper2Lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/src/eigen" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/src/libigl" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/include" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/include/boost-1_84" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/include/libnoise" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/include/OpenEXR" -bigobj -Zm520 /utf-8 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4267;4305;4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SILENCE_CXX17_ADAPTOR_TYPEDEFS_DEPRECATION_WARNING;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;LIBNEST2D_THREADING_tbb;LIBNEST2D_STATIC;LIBNEST2D_OPTIMIZER_nlopt;LIBNEST2D_GEOMETRIES_libslic3r;SLIC3R_GUI;SLIC3R_DESKTOP_INTEGRATION;HAS_WIN10SDK;_USE_MATH_DEFINES;_WIN32;_CRT_SECURE_NO_WARNINGS;BOOST_ALL_NO_LIB;BOOST_USE_WINAPI_VERSION=0x602;BOOST_SYSTEM_USE_UTF8;wxUSE_UNICODE;_UNICODE;UNICODE;WXINTL_NO_GETTEXT_MACRO;wxNO_UNSAFE_WXSTRING_CONV;USE_TBB;TBB_USE_CAPTURED_EXCEPTION=0;BOOST_FILESYSTEM_NO_LIB;BOOST_FILESYSTEM_STATIC_LINK=1;BOOST_THREAD_NO_LIB;BOOST_THREAD_STATIC_LINK;BOOST_THREAD_USE_LIB;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_STATIC_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_STATIC_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_STATIC_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_STATIC_LINK;BOOST_LOG_NO_LIB;BOOST_LOG_STATIC_LINK;BOOST_LOCALE_NO_LIB;BOOST_LOCALE_STATIC_LINK;BOOST_IOSTREAMS_NO_LIB;BOOST_IOSTREAMS_STATIC_LINK;BOOST_RANDOM_NO_LIB;BOOST_RANDOM_STATIC_LINK;CURL_STATICLIB;OPENVDB_STATICLIB;OPENVDB_OPENEXR_STATICLIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SILENCE_CXX17_ADAPTOR_TYPEDEFS_DEPRECATION_WARNING;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;LIBNEST2D_THREADING_tbb;LIBNEST2D_STATIC;LIBNEST2D_OPTIMIZER_nlopt;LIBNEST2D_GEOMETRIES_libslic3r;SLIC3R_GUI;SLIC3R_DESKTOP_INTEGRATION;HAS_WIN10SDK;_USE_MATH_DEFINES;_WIN32;_CRT_SECURE_NO_WARNINGS;BOOST_ALL_NO_LIB;BOOST_USE_WINAPI_VERSION=0x602;BOOST_SYSTEM_USE_UTF8;wxUSE_UNICODE;_UNICODE;UNICODE;WXINTL_NO_GETTEXT_MACRO;wxNO_UNSAFE_WXSTRING_CONV;USE_TBB;TBB_USE_CAPTURED_EXCEPTION=0;BOOST_FILESYSTEM_NO_LIB;BOOST_FILESYSTEM_STATIC_LINK=1;BOOST_THREAD_NO_LIB;BOOST_THREAD_STATIC_LINK;BOOST_THREAD_USE_LIB;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_STATIC_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_STATIC_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_STATIC_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_STATIC_LINK;BOOST_LOG_NO_LIB;BOOST_LOG_STATIC_LINK;BOOST_LOCALE_NO_LIB;BOOST_LOCALE_STATIC_LINK;BOOST_IOSTREAMS_NO_LIB;BOOST_IOSTREAMS_STATIC_LINK;BOOST_RANDOM_NO_LIB;BOOST_RANDOM_STATIC_LINK;CURL_STATICLIB;OPENVDB_STATICLIB;OPENVDB_OPENEXR_STATICLIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0;C:\Users\Administrator\Documents\GitHub\BambuStudio\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\platform;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\occt;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\miniz;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\qhull\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\clipper2\Clipper2Lib\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\eigen;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libigl;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\boost-1_84;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\libnoise;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0;C:\Users\Administrator\Documents\GitHub\BambuStudio\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\platform;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\occt;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\miniz;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\qhull\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\clipper2\Clipper2Lib\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\eigen;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libigl;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\boost-1_84;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\libnoise;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0;C:\Users\Administrator\Documents\GitHub\BambuStudio\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\platform;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\occt;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\miniz;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\qhull\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\clipper2\Clipper2Lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/src/eigen" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/src/libigl" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/include" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/include/boost-1_84" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/include/libnoise" /external:I "C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/include/OpenEXR" -bigobj -Zm520 /utf-8 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4267;4305;4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SILENCE_CXX17_ADAPTOR_TYPEDEFS_DEPRECATION_WARNING;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;LIBNEST2D_THREADING_tbb;LIBNEST2D_STATIC;LIBNEST2D_OPTIMIZER_nlopt;LIBNEST2D_GEOMETRIES_libslic3r;SLIC3R_GUI;SLIC3R_DESKTOP_INTEGRATION;HAS_WIN10SDK;_USE_MATH_DEFINES;_WIN32;_CRT_SECURE_NO_WARNINGS;BOOST_ALL_NO_LIB;BOOST_USE_WINAPI_VERSION=0x602;BOOST_SYSTEM_USE_UTF8;wxUSE_UNICODE;_UNICODE;UNICODE;WXINTL_NO_GETTEXT_MACRO;wxNO_UNSAFE_WXSTRING_CONV;USE_TBB;TBB_USE_CAPTURED_EXCEPTION=0;BOOST_FILESYSTEM_NO_LIB;BOOST_FILESYSTEM_STATIC_LINK=1;BOOST_THREAD_NO_LIB;BOOST_THREAD_STATIC_LINK;BOOST_THREAD_USE_LIB;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_STATIC_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_STATIC_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_STATIC_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_STATIC_LINK;BOOST_LOG_NO_LIB;BOOST_LOG_STATIC_LINK;BOOST_LOCALE_NO_LIB;BOOST_LOCALE_STATIC_LINK;BOOST_IOSTREAMS_NO_LIB;BOOST_IOSTREAMS_STATIC_LINK;BOOST_RANDOM_NO_LIB;BOOST_RANDOM_STATIC_LINK;CURL_STATICLIB;OPENVDB_STATICLIB;OPENVDB_OPENEXR_STATICLIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SILENCE_CXX17_ADAPTOR_TYPEDEFS_DEPRECATION_WARNING;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;LIBNEST2D_THREADING_tbb;LIBNEST2D_STATIC;LIBNEST2D_OPTIMIZER_nlopt;LIBNEST2D_GEOMETRIES_libslic3r;SLIC3R_GUI;SLIC3R_DESKTOP_INTEGRATION;HAS_WIN10SDK;_USE_MATH_DEFINES;_WIN32;_CRT_SECURE_NO_WARNINGS;BOOST_ALL_NO_LIB;BOOST_USE_WINAPI_VERSION=0x602;BOOST_SYSTEM_USE_UTF8;wxUSE_UNICODE;_UNICODE;UNICODE;WXINTL_NO_GETTEXT_MACRO;wxNO_UNSAFE_WXSTRING_CONV;USE_TBB;TBB_USE_CAPTURED_EXCEPTION=0;BOOST_FILESYSTEM_NO_LIB;BOOST_FILESYSTEM_STATIC_LINK=1;BOOST_THREAD_NO_LIB;BOOST_THREAD_STATIC_LINK;BOOST_THREAD_USE_LIB;BOOST_ATOMIC_NO_LIB;BOOST_ATOMIC_STATIC_LINK;BOOST_CHRONO_NO_LIB;BOOST_CHRONO_STATIC_LINK;BOOST_CONTAINER_NO_LIB;BOOST_CONTAINER_STATIC_LINK;BOOST_DATE_TIME_NO_LIB;BOOST_DATE_TIME_STATIC_LINK;BOOST_LOG_NO_LIB;BOOST_LOG_STATIC_LINK;BOOST_LOCALE_NO_LIB;BOOST_LOCALE_STATIC_LINK;BOOST_IOSTREAMS_NO_LIB;BOOST_IOSTREAMS_STATIC_LINK;BOOST_RANDOM_NO_LIB;BOOST_RANDOM_STATIC_LINK;CURL_STATICLIB;OPENVDB_STATICLIB;OPENVDB_OPENEXR_STATICLIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0;C:\Users\Administrator\Documents\GitHub\BambuStudio\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\platform;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\occt;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\miniz;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\qhull\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\clipper2\Clipper2Lib\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\eigen;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libigl;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\boost-1_84;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\libnoise;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0;C:\Users\Administrator\Documents\GitHub\BambuStudio\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\platform;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\occt;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libslic3r\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\miniz;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\qhull\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\clipper2\Clipper2Lib\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\eigen;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libigl;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\boost-1_84;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\libnoise;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include\OpenEXR;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Administrator/Documents/GitHub/BambuStudio/src/libnest2d/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Administrator/Documents/GitHub/BambuStudio -BC:/Users/Administrator/Documents/GitHub/BambuStudio/build --check-stamp-file C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/libnest2d/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Administrator\Documents\GitHub\BambuStudio\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libnest2d\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Administrator/Documents/GitHub/BambuStudio/src/libnest2d/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Administrator/Documents/GitHub/BambuStudio -BC:/Users/Administrator/Documents/GitHub/BambuStudio/build --check-stamp-file C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/libnest2d/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Administrator\Documents\GitHub\BambuStudio\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libnest2d\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Administrator/Documents/GitHub/BambuStudio/src/libnest2d/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Administrator/Documents/GitHub/BambuStudio -BC:/Users/Administrator/Documents/GitHub/BambuStudio/build --check-stamp-file C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/libnest2d/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Documents\GitHub\BambuStudio\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libnest2d\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Administrator/Documents/GitHub/BambuStudio/src/libnest2d/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Administrator/Documents/GitHub/BambuStudio -BC:/Users/Administrator/Documents/GitHub/BambuStudio/build --check-stamp-file C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/libnest2d/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Administrator\Documents\GitHub\BambuStudio\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libnest2d\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\libnest2d.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\nester.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\geometry_traits.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\geometry_traits_nfp.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\common.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\optimizer.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\utils\metaloop.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\utils\rotfinder.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\utils\rotcalipers.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\placers\placer_boilerplate.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\placers\bottomleftplacer.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\placers\nfpplacer.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\selections\selection_boilerplate.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\selections\firstfit.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\backends\libslic3r\geometries.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\optimizers\nlopt\nlopt_boilerplate.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\optimizers\nlopt\simplex.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\optimizers\nlopt\subplex.hpp" />
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\include\libnest2d\optimizers\nlopt\genetic.hpp" />
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libnest2d\src\libnest2d.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r\libslic3r.vcxproj">
+      <Project>{75232CA9-B83E-33CC-B963-4A00F2A268A4}</Project>
+      <Name>libslic3r</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

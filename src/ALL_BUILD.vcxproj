@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1D3DE22A-95D5-3704-8413-7A2240A44195}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0;C:\Users\Administrator\Documents\GitHub\BambuStudio\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\platform;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libigl;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\hidapi\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\eigen;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\lib\vc_x64_lib\mswu;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0;C:\Users\Administrator\Documents\GitHub\BambuStudio\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\platform;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libigl;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\hidapi\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\eigen;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\lib\vc_x64_lib\mswu;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0;C:\Users\Administrator\Documents\GitHub\BambuStudio\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\platform;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libigl;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\hidapi\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\eigen;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\lib\vc_x64_lib\mswu;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0;C:\Users\Administrator\Documents\GitHub\BambuStudio\src;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\platform;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\libigl;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\hidapi\include;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\eigen;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\lib\vc_x64_lib\mswu;C:\Users\Administrator\Documents\GitHub\BambuStudio\deps\build\out_deps\usr\local\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Administrator/Documents/GitHub/BambuStudio/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Administrator/Documents/GitHub/BambuStudio -BC:/Users/Administrator/Documents/GitHub/BambuStudio/build --check-stamp-file C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindJPEG.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindTIFF.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindwxWidgets.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\UsewxWidgets.cmake;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\CMakeFiles\cmake.verify_globs;C:\Users\Administrator\Documents\GitHub\BambuStudio\cmake\modules\Findlibnoise.cmake;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\platform\msw\BambuStudio.manifest.in;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\platform\msw\BambuStudio.rc.in;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\platform\osx\Info.plist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Administrator/Documents/GitHub/BambuStudio/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Administrator/Documents/GitHub/BambuStudio -BC:/Users/Administrator/Documents/GitHub/BambuStudio/build --check-stamp-file C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindJPEG.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindTIFF.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindwxWidgets.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\UsewxWidgets.cmake;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\CMakeFiles\cmake.verify_globs;C:\Users\Administrator\Documents\GitHub\BambuStudio\cmake\modules\Findlibnoise.cmake;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\platform\msw\BambuStudio.manifest.in;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\platform\msw\BambuStudio.rc.in;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\platform\osx\Info.plist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Administrator/Documents/GitHub/BambuStudio/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Administrator/Documents/GitHub/BambuStudio -BC:/Users/Administrator/Documents/GitHub/BambuStudio/build --check-stamp-file C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindJPEG.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindTIFF.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindwxWidgets.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\UsewxWidgets.cmake;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\CMakeFiles\cmake.verify_globs;C:\Users\Administrator\Documents\GitHub\BambuStudio\cmake\modules\Findlibnoise.cmake;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\platform\msw\BambuStudio.manifest.in;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\platform\msw\BambuStudio.rc.in;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\platform\osx\Info.plist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Administrator/Documents/GitHub/BambuStudio/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Administrator/Documents/GitHub/BambuStudio -BC:/Users/Administrator/Documents/GitHub/BambuStudio/build --check-stamp-file C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindJPEG.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindTIFF.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindwxWidgets.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\UsewxWidgets.cmake;C:\Users\Administrator\Documents\GitHub\BambuStudio\build\CMakeFiles\cmake.verify_globs;C:\Users\Administrator\Documents\GitHub\BambuStudio\cmake\modules\Findlibnoise.cmake;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\platform\msw\BambuStudio.manifest.in;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\platform\msw\BambuStudio.rc.in;C:\Users\Administrator\Documents\GitHub\BambuStudio\src\platform\osx\Info.plist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\ZERO_CHECK.vcxproj">
+      <Project>{ECD38AC2-1438-39D5-8661-0D3BBA7D9222}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\BambuStudio.vcxproj">
+      <Project>{908E0118-0A79-3726-82D2-C9CDC27DDC2C}</Project>
+      <Name>BambuStudio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\BambuStudioDllsCopy.vcxproj">
+      <Project>{0EB06CAB-86A1-30EB-8961-D4E8CFFB9ADB}</Project>
+      <Name>BambuStudioDllsCopy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\BambuStudio_app_gui.vcxproj">
+      <Project>{4B422746-C2D0-30CB-B498-B0E6D1DE71E4}</Project>
+      <Name>BambuStudio_app_gui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\clipper2\Clipper2.vcxproj">
+      <Project>{39C7AF86-6A2E-39D5-95D3-29BE22D02C41}</Project>
+      <Name>Clipper2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\Shiny\Shiny.vcxproj">
+      <Project>{00AFC46A-44B0-3188-994B-B2E3FA4E634D}</Project>
+      <Name>Shiny</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\admesh\admesh.vcxproj">
+      <Project>{93F198F3-E56E-3B96-A3AC-A42229A13C63}</Project>
+      <Name>admesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\clipper\clipper.vcxproj">
+      <Project>{DF9A239B-308B-31A2-A0E5-F2526202F25D}</Project>
+      <Name>clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\glu-libtess\glu-libtess.vcxproj">
+      <Project>{6FA9C23C-9790-37B3-A48B-64576D3027B1}</Project>
+      <Name>glu-libtess</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\hidapi\hidapi.vcxproj">
+      <Project>{0D1DB116-F552-36A3-BEAD-CD7126DF6587}</Project>
+      <Name>hidapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\hints\hintsToPot.vcxproj">
+      <Project>{6F34F02B-E3E7-3972-8A98-54B610BCD008}</Project>
+      <Name>hintsToPot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\imgui\imgui.vcxproj">
+      <Project>{74E37C9D-C302-3E6A-8DEC-3293A82B51A9}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\imguizmo\imguizmo.vcxproj">
+      <Project>{B0C9D945-B400-3440-82C5-71554EB8B907}</Project>
+      <Name>imguizmo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libnest2d\libnest2d.vcxproj">
+      <Project>{B933F17E-770C-30C7-B765-4B38340D45AC}</Project>
+      <Name>libnest2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r\libslic3r_cgal.vcxproj">
+      <Project>{C8B52BEE-B288-3271-822A-13B5AC90613A}</Project>
+      <Name>libslic3r_cgal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\slic3r\libslic3r_gui.vcxproj">
+      <Project>{07C97565-42AC-3AAD-9B86-55102603CCCB}</Project>
+      <Name>libslic3r_gui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\libslic3r\libslic3r_project_history.vcxproj">
+      <Project>{A187817D-B4B9-3065-90D0-718EA0DBCA62}</Project>
+      <Name>libslic3r_project_history</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\mcut\mcut.vcxproj">
+      <Project>{163F8B09-4318-30A4-9BDD-B46156CFC7D9}</Project>
+      <Name>mcut</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\minilzo\minilzo_static.vcxproj">
+      <Project>{D811260D-893C-3F50-8511-AF22326C5607}</Project>
+      <Name>minilzo_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\miniz\miniz_static.vcxproj">
+      <Project>{3E0E7662-B697-34BE-AD12-EC37E321A831}</Project>
+      <Name>miniz_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\boost\nowide.vcxproj">
+      <Project>{88C57FEC-08DE-3633-88C6-4222FAF9AEAB}</Project>
+      <Name>nowide</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\qhull\qhullstatic.vcxproj">
+      <Project>{BB6EAE4D-0379-3A50-ABCB-B00A48F74AEB}</Project>
+      <Name>qhullstatic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\semver\semver.vcxproj">
+      <Project>{9CF9EA3E-4854-373B-8DCD-B1D351D537E5}</Project>
+      <Name>semver</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,60 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/Microsoft Visual Studio/18/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeParseArguments.cmake
+C:/Program Files/Microsoft Visual Studio/18/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FindBoost.cmake
+C:/Program Files/Microsoft Visual Studio/18/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/Microsoft Visual Studio/18/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/build/CMakeFiles/cmake.verify_globs
+C:/Users/Administrator/Documents/GitHub/BambuStudio/cmake/modules/PrecompiledHeader.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/OpenCVConfig-version.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/OpenCVConfig.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/Boost-1.84.0/BoostConfig.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/Boost-1.84.0/BoostConfigVersion.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/CGALConfig.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/CGALConfigBuildVersion.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/CGALConfigVersion.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/CGAL_Common.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/CGAL_CreateSingleSourceCGALProgram.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/CGAL_GeneratorSpecificSettings.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/CGAL_Macros.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/CGAL_SCM.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/CGAL_SetupBoost.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/CGAL_SetupCGALDependencies.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/CGAL_SetupGMP.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/CGAL_SetupVLD.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/CGAL_TweakFindBoost.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/CGAL_VersionUtils.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/CGAL_add_test.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/CGAL_enable_end_of_configuration_hook.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/CGAL_setup_target_dependencies.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/CGAL_target_use_TBB.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/FindGMP.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/FindGMPXX.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/CGAL/FindMPFR.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/assimp-5.4/assimpConfig.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/assimp-5.4/assimpConfigVersion.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/assimp-5.4/assimpTargets-debug.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/assimp-5.4/assimpTargets-release.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/assimp-5.4/assimpTargets.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/boost_headers-1.84.0/boost_headers-config-version.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/boost_headers-1.84.0/boost_headers-config.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/boost_headers-1.84.0/boost_headers-targets.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/occt/OpenCASCADEApplicationFrameworkTargets-release.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/occt/OpenCASCADEApplicationFrameworkTargets.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/occt/OpenCASCADECompileDefinitionsAndFlags-release.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/occt/OpenCASCADEConfig.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/occt/OpenCASCADEConfigVersion.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/occt/OpenCASCADEDataExchangeTargets-release.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/occt/OpenCASCADEDataExchangeTargets.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/occt/OpenCASCADEFoundationClassesTargets-release.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/occt/OpenCASCADEFoundationClassesTargets.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/occt/OpenCASCADEModelingAlgorithmsTargets-release.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/occt/OpenCASCADEModelingAlgorithmsTargets.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/occt/OpenCASCADEModelingDataTargets-release.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/occt/OpenCASCADEModelingDataTargets.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/occt/OpenCASCADEVisualizationTargets-release.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/lib/cmake/occt/OpenCASCADEVisualizationTargets.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/x64/vc17/staticlib/OpenCVConfig.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/x64/vc17/staticlib/OpenCVModules-release.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/deps/build/out_deps/usr/local/x64/vc17/staticlib/OpenCVModules.cmake
+C:/Users/Administrator/Documents/GitHub/BambuStudio/src/libslic3r/CMakeLists.txt
+C:/Users/Administrator/Documents/GitHub/BambuStudio/src/libslic3r/libslic3r_version.h.in

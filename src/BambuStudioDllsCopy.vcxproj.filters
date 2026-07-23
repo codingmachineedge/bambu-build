@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\CMakeFiles\2c900d58e468bcb69f0ff93d86e57d14\BambuStudioDllsCopy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\build\src\CMakeFiles\BambuStudioDllsCopy" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D979B1CB-A369-3FC4-B9FD-2D71A4829A0C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

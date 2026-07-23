@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\dict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\geom.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\memalloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\mesh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\normal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\priorityq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\render.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\sweep.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\tess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\tessmono.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\dict-list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\geom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\gluos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\memalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\normal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\priorityq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\priorityq-heap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\priorityq-sort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\sweep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\tess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\src\tessmono.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\include\glu-libtess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Documents\GitHub\BambuStudio\src\glu-libtess\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{68992DAA-4905-3472-A185-A37B20A3D05F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{04F8C818-681C-3F20-BD3F-14480F026517}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

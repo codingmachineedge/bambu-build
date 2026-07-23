@@ -1,0 +1,5 @@
+version desktop-material/cheap-lfs/v1
+release-tag bambu-build-20260723-1105-41718cda
+asset-name cmake_pch.pch
+size 732037120
+sha256 201153d12c81342e62cd272bed90ca8e465c837e9fe4020e0a185d5579ee1250

@@ -1,0 +1,32 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/build-utils/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/admesh/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/boost/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/clipper/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/clipper2/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/miniz/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/minilzo/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/glu-libtess/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/qhull/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/Shiny/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/semver/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/libigl/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/hints/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/mcut/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/libnest2d/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/libslic3r/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/imgui/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/imguizmo/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/hidapi/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/slic3r/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/slic3r/GUI/DeviceCore/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/slic3r/GUI/DeviceTab/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/slic3r/GUI/fila_manager/cmake_install.cmake",
+		"C:/Users/Administrator/Documents/GitHub/BambuStudio/build/src/slic3r/GUI/DeviceWeb/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

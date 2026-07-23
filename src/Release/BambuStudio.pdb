@@ -4,4 +4,4 @@ asset-name BambuStudio.pdb
 size 1836314624
 sha256 a8b37e72bf02efc90e4075a0321b1999dfb6af974407edaccbc1e35e69c3d15f
 part-deflate a300f5b541233fd7ef572fc2c71039380efbd6703ae1129f800c981d31074514 1610612736 266507872 BambuStudio.pdb.part001.cheap-lfs-a300f5b54123.deflate
-part dabc5bcdf1eee6c3fe405528182759c80613ca076d5ad2c4fd9f7187c7362e6b 225701888 BambuStudio.pdb.part002
+part-deflate dabc5bcdf1eee6c3fe405528182759c80613ca076d5ad2c4fd9f7187c7362e6b 225701888 41517911 BambuStudio.pdb.part002.cheap-lfs-dabc5bcdf1ee.deflate

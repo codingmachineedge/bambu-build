@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "repository": "codingmachineedge/bambu-build",
+  "releaseTag": "bambu-build-20260723-1105-41718cda",
+  "expectedPayloadFileCount": 8305,
+  "expectedTotalTreeFileCount": 8309,
+  "sourceBytes": 14809588162,
+  "cheapLfsPointerCount": 10,
+  "cheapLfsLogicalBytes": 9428683391,
+  "pointers": [
+    {
+      "path": "src/Release/BambuStudio.dll",
+      "originalAssetName": "BambuStudio.dll",
+      "logicalSizeInBytes": 147919360,
+      "sha256": "ea9fe882ae299b2f81c801dd8fa607a73b38f145fe1b4a87e95e44114180a68a",
+      "originalRawAssets": [
+        {
+          "name": "BambuStudio.dll",
+          "sizeInBytes": 147919360,
+          "sha256": "ea9fe882ae299b2f81c801dd8fa607a73b38f145fe1b4a87e95e44114180a68a"
+        }
+      ]
+    },
+    {
+      "path": "src/Release/BambuStudio.pdb",
+      "originalAssetName": "BambuStudio.pdb",
+      "logicalSizeInBytes": 1836314624,
+      "sha256": "a8b37e72bf02efc90e4075a0321b1999dfb6af974407edaccbc1e35e69c3d15f",
+      "originalRawAssets": [
+        {
+          "name": "BambuStudio.pdb.part001",
+          "sizeInBytes": 1610612736,
+          "sha256": "a300f5b541233fd7ef572fc2c71039380efbd6703ae1129f800c981d31074514"
+        },
+        {
+          "name": "BambuStudio.pdb.part002",
+          "sizeInBytes": 225701888,
+          "sha256": "dabc5bcdf1eee6c3fe405528182759c80613ca076d5ad2c4fd9f7187c7362e6b"
+        }
+      ]
+    },
+    {
+      "path": "src/libslic3r/Release/libslic3r.lib",
+      "originalAssetName": "libslic3r.lib",
+      "logicalSizeInBytes": 1742356008,
+      "sha256": "bef63ad92006107944086ec1c041c1b56671d71175f6850200275906babbd9dc",
+      "originalRawAssets": [
+        {
+          "name": "libslic3r.lib.part001",
+          "sizeInBytes": 1610612736,
+          "sha256": "da2701f595e75ad99b3e38d8c757c1363875cfec571b2973e377113859104ac5"
+        },
+        {
+          "name": "libslic3r.lib.part002",
+          "sizeInBytes": 131743272,
+          "sha256": "b7307d020c215dfa6134e19a5f6d1bae6e1a9ca191a9796c770344aefaed740c"
+        }
+      ]
+    },
+    {
+      "path": "src/libslic3r/Release/libslic3r.pdb",
+      "originalAssetName": "libslic3r.pdb",
+      "logicalSizeInBytes": 563695616,
+      "sha256": "01e6ebc4a08ab76e673511043d85556a79cc055a45f2aea576cafdb8033387c4",
+      "originalRawAssets": [
+        {
+          "name": "libslic3r.pdb",
+          "sizeInBytes": 563695616,
+          "sha256": "01e6ebc4a08ab76e673511043d85556a79cc055a45f2aea576cafdb8033387c4"
+        }
+      ]
+    },
+    {
+      "path": "src/libslic3r/Release/libslic3r_cgal.lib",
+      "originalAssetName": "libslic3r_cgal.lib",
+      "logicalSizeInBytes": 284664618,
+      "sha256": "c1fd0bf8bb43481256166808a0fc4f9e01ad3d5aa187832cad6a8955917086ec",
+      "originalRawAssets": [
+        {
+          "name": "libslic3r_cgal.lib",
+          "sizeInBytes": 284664618,
+          "sha256": "c1fd0bf8bb43481256166808a0fc4f9e01ad3d5aa187832cad6a8955917086ec"
+        }
+      ]
+    },
+    {
+      "path": "src/libslic3r/libslic3r.dir/Release/cmake_pch.pch",
+      "originalAssetName": "cmake_pch.pch",
+      "logicalSizeInBytes": 732037120,
+      "sha256": "201153d12c81342e62cd272bed90ca8e465c837e9fe4020e0a185d5579ee1250",
+      "originalRawAssets": [
+        {
+          "name": "cmake_pch.pch",
+          "sizeInBytes": 732037120,
+          "sha256": "201153d12c81342e62cd272bed90ca8e465c837e9fe4020e0a185d5579ee1250"
+        }
+      ]
+    },
+    {
+      "path": "src/libslic3r/libslic3r_cgal.dir/Release/MeshBoolean.obj",
+      "originalAssetName": "MeshBoolean.obj",
+      "logicalSizeInBytes": 145270375,
+      "sha256": "b3c7be83fad51a3813fce4ff484c75bfd82068eba6b1e3936f3e70340c6cfbf7",
+      "originalRawAssets": [
+        {
+          "name": "MeshBoolean.obj",
+          "sizeInBytes": 145270375,
+          "sha256": "b3c7be83fad51a3813fce4ff484c75bfd82068eba6b1e3936f3e70340c6cfbf7"
+        }
+      ]
+    },
+    {
+      "path": "src/slic3r/Release/libslic3r_gui.lib",
+      "originalAssetName": "libslic3r_gui.lib",
+      "logicalSizeInBytes": 3004580038,
+      "sha256": "4d14adee135ee1c76434124faa51879db58dfb69081164b167786bae3d67d82d",
+      "originalRawAssets": [
+        {
+          "name": "libslic3r_gui.lib.part001",
+          "sizeInBytes": 1610612736,
+          "sha256": "387b1a1bce6e69da652351e6a9bf63960332ed64caac46de9782da7485e5b329"
+        },
+        {
+          "name": "libslic3r_gui.lib.part002",
+          "sizeInBytes": 1393967302,
+          "sha256": "8b13a8db5702d8dcc0c2975e95376b7f628c48e9352cdc09d775c30a8d9dfcc5"
+        }
+      ]
+    },
+    {
+      "path": "src/slic3r/Release/libslic3r_gui.pdb",
+      "originalAssetName": "libslic3r_gui.pdb",
+      "logicalSizeInBytes": 366817280,
+      "sha256": "4efd89637937845b5c3120b046cc8012aba08230aacd5bb159fca59c8c212192",
+      "originalRawAssets": [
+        {
+          "name": "libslic3r_gui.pdb",
+          "sizeInBytes": 366817280,
+          "sha256": "4efd89637937845b5c3120b046cc8012aba08230aacd5bb159fca59c8c212192"
+        }
+      ]
+    },
+    {
+      "path": "src/slic3r/libslic3r_gui.dir/Release/cmake_pch.cxx.pch",
+      "originalAssetName": "cmake_pch.cxx.pch",
+      "logicalSizeInBytes": 605028352,
+      "sha256": "aae255240caa3e82737ecbcd24cd9626dd9bddeba26623ccacbad1368b5fe615",
+      "originalRawAssets": [
+        {
+          "name": "cmake_pch.cxx.pch",
+          "sizeInBytes": 605028352,
+          "sha256": "aae255240caa3e82737ecbcd24cd9626dd9bddeba26623ccacbad1368b5fe615"
+        }
+      ]
+    }
+  ]
+}

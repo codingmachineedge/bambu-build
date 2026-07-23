@@ -28,4 +28,4 @@ jobs:
         with:
           fetch-depth: 0
       - name: Compress and adopt verified side assets
-        uses: Ding-Ding-Projects/desktop-material/.github/actions/cheap-lfs-cloud-compression@16983c59d702d9e6fa49d2ac4fa4b35c415e9190
+        uses: Ding-Ding-Projects/desktop-material/.github/actions/cheap-lfs-cloud-compression@42e2cbcc9826e681324a0a7189497b84e3aad6e8

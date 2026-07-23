@@ -1,5 +1,6 @@
 version desktop-material/cheap-lfs/v1
 release-tag bambu-build-20260723-1105-41718cda
-asset-name BambuStudio.dll
+asset-name BambuStudio.dll.cheap-lfs-ea9fe882ae29.deflate
 size 147919360
 sha256 ea9fe882ae299b2f81c801dd8fa607a73b38f145fe1b4a87e95e44114180a68a
+part-deflate ea9fe882ae299b2f81c801dd8fa607a73b38f145fe1b4a87e95e44114180a68a 147919360 53830703 BambuStudio.dll.cheap-lfs-ea9fe882ae29.deflate

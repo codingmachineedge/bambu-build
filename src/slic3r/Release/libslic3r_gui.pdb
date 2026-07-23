@@ -1,5 +1,6 @@
 version desktop-material/cheap-lfs/v1
 release-tag bambu-build-20260723-1105-41718cda
-asset-name libslic3r_gui.pdb
+asset-name libslic3r_gui.pdb.cheap-lfs-4efd89637937.deflate
 size 366817280
 sha256 4efd89637937845b5c3120b046cc8012aba08230aacd5bb159fca59c8c212192
+part-deflate 4efd89637937845b5c3120b046cc8012aba08230aacd5bb159fca59c8c212192 366817280 53398582 libslic3r_gui.pdb.cheap-lfs-4efd89637937.deflate

@@ -1,5 +1,6 @@
 version desktop-material/cheap-lfs/v1
 release-tag bambu-build-20260723-1105-41718cda
-asset-name MeshBoolean.obj
+asset-name MeshBoolean.obj.cheap-lfs-b3c7be83fad5.deflate
 size 145270375
 sha256 b3c7be83fad51a3813fce4ff484c75bfd82068eba6b1e3936f3e70340c6cfbf7
+part-deflate b3c7be83fad51a3813fce4ff484c75bfd82068eba6b1e3936f3e70340c6cfbf7 145270375 16559175 MeshBoolean.obj.cheap-lfs-b3c7be83fad5.deflate

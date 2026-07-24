@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: cheap-lfs-cloud-compression-${{ github.repository }}-${{ github.event.repository.default_branch }}
+  group: cheap-lfs-compress-${{ github.run_id }}-${{ github.run_attempt }}
   cancel-in-progress: false
 
 jobs:
@@ -26,6 +26,8 @@ jobs:
       - name: Check out the pointer commit
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
         with:
-          fetch-depth: 0
+          fetch-depth: 1
+          sparse-checkout: .github
+          sparse-checkout-cone-mode: true
       - name: Compress and adopt verified side assets
         uses: Ding-Ding-Projects/desktop-material/.github/actions/cheap-lfs-cloud-compression@42e2cbcc9826e681324a0a7189497b84e3aad6e8
